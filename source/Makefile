@@ -7,7 +7,7 @@ FLAGS = -DBOOST_DISABLE_ASSERTS -DNDEBUG
 CXXFLAGS = -march=native -mtune=native $(INCLUDEDIRS) $(FLAGS) -Werror -Wall -O0 -g -std=c++11 -pthread -lpthread -fpermissive
 CXX = g++
 
-LIBS = -llua5.1 -lgmp -lboost_thread -lboost_system -lmysqlclient /usr/lib/libtcmalloc_minimal.so.4 -lxml2 -lboost_regex -lboost_filesystem -lcrypto
+LIBS = -llua5.1 -lgmp -lboost_thread -lboost_system -lmysqlclient -lxml2 -lboost_regex -lboost_filesystem -lcrypto
 
 LDFLAGS = $(LIBS)
 
