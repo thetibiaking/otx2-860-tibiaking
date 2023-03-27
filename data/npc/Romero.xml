@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Romeiro" script="Romero.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="79" legs="86" feet="82"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|, é bom ver novas pessoas, quer saber sobre a {quest} ?"/>
+        <parameter key="message_farewell" value="Até logo!"/>
+        <parameter key="module_keywords" value="1" />
+		<parameter key="module_shop" value="0"/>
+	</parameters>
+</npc>

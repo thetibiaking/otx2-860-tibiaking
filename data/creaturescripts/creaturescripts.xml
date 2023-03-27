@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>	
+    <!-- new frag system -->
+	<event type="death" name="newFrag" event="script" value="new_frags.lua"/>
+	<!--<event type="kill" name="fragCache" script="frag_cache.lua"/>-->
+	
+	<!-- Defend the Towers -->
+	<!-- <event type="death" name="dttDeath" event="script" value="eventos/DTT.lua"/>  -->
+	<!-- <event type="PrepareDeath" name="dttPrepare" event="script" value="eventos/DTT.lua"/> -->
+	<!-- <event type="statschange" name="dttStats" event="script" value="eventos/DTT.lua"/> -->
+	<!-- <event type="outfit" name="dttOutfit" event="script" value="eventos/DTT.lua"/> -->
+	<!-- <event type="login" name="dttLogin" event="script" value="eventos/DTT.lua"/> -->
+	<!-- <event type="kill" name="dttKill" event="script" value="eventos/DTT.lua"/>	 -->
+	<!-- <event type="combat" name="dttCombat" event="script" value="eventos/DTT.lua"/> -->
+	
+	<event type="kill" name="weekend_exp" event="script" value="weekend_exp.lua"/>
+	
+	<!-- VIP EXP -->
+	<event type="death" name="BlessDrop" event="script" value="DropBless.lua"/>
+	<!-- <event type="login" name="ExpVip" script="vipexp.lua"/> -->
+	<event type="textedit" name="luaDemo" event="script" value="lua_demo.lua"/>
+			
+	<event type="push" name="Anti-Push" event="script" value="anti-push.lua"/>
+	<event type="death" name="Ranris" script="Ranris.lua"/>
+	<event type="push" name="NoMovePlayerPz" event="script" value="NoMovePlayerPz.lua"/>
+	
+	<event type="kill" name="monsterBoostKill" event="script" value="monsterBoost.lua"/>
+	<event type="login" name="monsterBoostLogin" event="script" value="monsterBoost.lua"/>
+	
+	<event type="login" name="StaminareLogin" event="script" value="staminareco.lua"/>
+	<event type="think" name="StaminaThink" event="script" value="staminareco.lua"/>
+	
+	<!-- War Castle -->
+	<!-- <event type="death" name="empe_broken" event="script" value="eventos/empe_broken.lua"/> -->
+	<!-- <event type="death" name="pre_empes" event="script" value="eventos/pre_empes.lua"/> -->
+	<!-- <event type="statschange" name="empe_dmg" event="script" value="eventos/empe_dmg.lua"/> -->
+	<!-- <event type="login" name="WoeHunt_login" event="script" value="eventos/woe_hunt.lua"/> -->
+	<!-- <event type="death" name="WoeHunt_death" event="script" value="eventos/woe_hunt.lua"/> -->
+	
+	<!-- Battlefield -->
+	<!-- <event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/> -->
+        <!-- <event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/> -->
+        <!-- <event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/> -->
+
+        <!-- Zombie -->
+	<!-- <event type="statschange" name="ZombieAttack" event="script" value="zombie/onattack.lua"/> -->
+	<!-- <event type="think" name="ZombieThink" event="script" value="zombie/onthink.lua"/> -->
+	<!-- <event type="death" name="ZombieDeath" event="script" value="zombie/ondeath.lua"/> -->
+	
+	<!-- Quests -->
+
+	<!-- Demon Oak -->
+    <event type="logout" name="demonOakLogout" event="script" value="quests/demon oak/demonOakLogout.lua"/>
+    <event type="death" name="demonOakDeath" event="script" value="quests/demon oak/demonOakDeath.lua"/>
+    <event type="textedit" name="demonOakComplete" event="script" value="quests/demon oak/demonOakComplete.lua"/>
+	
+	<!-- Inquisition Full Quest -->
+    <event type="kill" name="InquisitionPortals" script="quests/inq/inquisition.lua"/>
+    <event type="kill" name="InquisitionKill" script="quests/inq/inquisitionkill.lua"/>
+
+    <!-- Arena -->
+    <event type="kill" name="ArenaKill" event="script" value="quests/arena/arenakill.lua"/>
+
+	<!-- Yalahari Quest -->
+	<event type="kill" name="Azerus" event="script" value="quests/yalahar/azerus.lua"/>
+
+	<!-- Pythius The Rotten -->
+	<event type="death" name="PythiusTheRotten" event="script" value="quests/pythius/pythius.lua"/>
+
+	
+															<!-- End Quests -->
+    <!-- Server Events -->
+    <event type="channeljoin" name="GuildEvents" event="script" value="server events/guild.lua"/>
+    <event type="mailreceive" name="Mail" event="script" value="server events/mail.lua"/>
+	
+    <!-- Task System -->
+	<event type="death" name="TaskBosses" event="script" value="task/TaskBosses.lua"/>
+	<event type="kill" name="KillingInTheNameOf" event="script" value="task/KillingInTheNameOf.lua"/>
+
+    <!-- Player Login -->
+    <event type="login" name="FimVip" event="script" value="login/fimvip.lua"/>
+    <event type="login" name="freebless" event="script" value="login/blessfree.lua"/>
+    <event type="login" name="PremCheck" script="login/premcheck.lua"/>
+    <event type="login" name="Welcome" script="login/welcome.lua"/>
+    <event type="login" name="MutePlayer" event="script" value="login/mute_check.lua"/>
+    <event type="login" name="PlayerLogin" event="script" value="login/login.lua"/>
+    <event type="think" name="BlessCheck" event="script" value="login/blesscheck.lua"/>
+
+	
+    <!-- Player Advance -->
+	<event type="advance" name="reward" event="script" value="advance/reward45.lua"/>
+    <event type="advance" name="AdvanceSave" event="script" value="advance/advancesave.lua"/>
+    <!--<event type="advance" name="fullhpmana" event="script" value="advance/fullhpmana.lua"/>-->
+    	
+	                                                     <!-- Others -->
+    <!-- Idle -->
+    <event type="think" name="Idle" event="script" value="others/idle/idle.lua"/>
+	
+    <!-- Cast -->
+    <event type="logout" name="CastLogout" event="script" value="others/cast/castlogout.lua"/>'
+	
+	
+	<!-- CityWar -->
+	<event type="login" name="War_Cytis_Login" event="script" value="entrosa/citys_war.lua"/>
+	<event type="logout" name="War_Cytis_Logout" event="script" value="entrosa/citys_war.lua"/>
+	<event type="death" name="War_Cytis_Death" event="script" value="entrosa/citys_war.lua"/>
+
+	
+</creaturescripts>

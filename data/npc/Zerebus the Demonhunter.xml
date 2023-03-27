@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Zerebus The Demonhunter" script="data/npc/scripts/inqaddon.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="289" head="116" body="95" legs="0" feet="114" addons="3"/>
+	<parameters>
+	<parameter key="message_greet" value="Ola |PLAYERNAME|. Para voce achar minha sala secreta, voce passou pelos meus guardioes entao voce merece uma ropa de recompensa para provar para os demais que voce e um bravo 'DEMONHUNTER'." />
+	</parameters>
+</npc>

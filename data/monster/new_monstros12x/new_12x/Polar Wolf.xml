@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Polar Wolf" nameDescription="a polar wolf" race="blood" experience="2800" speed="170" manacost="0">
+	<health now="3500" max="3500"/>
+	<look type="52" corpse="7349"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag targetdistance="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="100" attack="90" poison="8"/>
+		<attack name="speed" interval="2000" chance="20" range="7" radius="7" target="0" speedchange="-850" duration="8000">
+		<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="energy" interval="1000" chance="25" range="7" target="1" min="-600" max="-1050">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="20">
+		<defense name="speed" interval="3000" chance="40" speedchange="380" duration="80000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element icePercent="100"/>
+		<element earthPercent="20"/>
+		<element energyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="Vou te comer fdp!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="82" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="83" chance="100000"/><!-- gold coin -->
+		<item id="7589" chance="14285"/><!-- strong mana potion -->
+		<item id="2463" chance="10000"/><!-- plate armor -->
+		<item id="2478" chance="10000"/><!-- brass legs -->
+		<item id="7364" countmax="6" chance="6250"/><!-- sniper arrow -->
+		<item id="2463" chance="5263"/><!-- ice cube -->
+		<item id="2457" chance="4545"/><!-- steel helmet -->
+		<item id="7449" chance="2564"/><!-- crystal sword -->
+		<item id="5879" chance="2222"/><!-- spider silk-->
+		<item id="2169" chance="1587"/><!-- time ring -->
+		<item id="7290" chance="1010"/><!-- shard -->
+		<item id="2477" chance="952"/><!-- knight legs -->
+		<item id="2476" chance="684"/><!-- knight armor -->
+		<item id="7902" chance="265"/><!-- glacier mask -->
+		<item id="2171" chance="212"/><!-- platinum amulet -->
+		<item id="7437" chance="159"/><!-- sapphire hammer -->
+	</loot>
+</monster>

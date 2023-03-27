@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	
+	                             <!-- Eventos -->
+	<!-- <globalevent name="HouseClean" time="6:45" event="script" value="houseclean.lua"/> -->							
+	<!-- <globalevent name="WoE" interval="61000" event="script" value="eventos/woe.lua"/> -->
+	<!-- <globalevent name="start_woe" time="10:08" event="script" value="eventos/start_woe.lua"/> -->
+        <globalevent name="raid" interval="180000" event="script" value="raid.lua"/>		
+		
+	                                       <!-- End Events -->
+        <globalevent name="StartSBW" time="11:55" event="script" value="events/snowballglobalevent.lua"/>
+        <!-- <globalevent name="GlobalBattle" interval="60000" event="script" value="BattleGlobalEvents.lua"/> -->
+        <!-- <globalevent name="GlobalStart" type="start" event="script" value="BattleGlobalStart.lua"/> -->
+	<globalevent name="weekend_exp" interval="10000" event="script" value="weekend_exp.lua"/>
+		<!--<globalevent name="ZombieGlobalStartup" type="startup" event="script" value="zombie/onstartup.lua"/> -->
+		<!--<globalevent name="ZombieGlobalThink" interval="10000" event="script" value="zombie/onthink.lua"/> -->
+		<!--<globalevent name="ZombieOnTime" time="14:21:00" event="script" value="zombie/ontime.lua"/> -->
+
+
+                                      <!-- Effect -->
+        <globalevent name="effect" interval="1400" event="script" value="others/effects/effect.lua"/>
+
+	                              <!-- BC Player -->
+	<globalevent name="bcplayer" interval="1000" event="script" value="others/broadcast server/guilds/bccheck.lua"/>
+
+	
+	<!-- <globalevent name="monsterBoostStart" type="startup" event="script" value="monsterBoost.lua"/> -->
+	<!-- <globalevent name="monsterBoostThink" interval="2000" event="script" value="monsterBoost.lua" /> -->
+	<globalevent name="StaminaRegen" interval="420000" script="staminareco.lua"/>
+	
+	<!-- Broadcast Server -->
+    <globalevent name="information" interval="6000000" event="script" value="others/broadcast server/autobroadcast/autobroadcast.lua"/>
+    <globalevent name="information2" interval="9000000" event="script" value="others/broadcast server/autobroadcast/globalmsg.lua"/>
+	<globalevent name="save" interval="18000000" event="script" value="others/broadcast server/saves/save.lua"/>
+	<globalevent name="GlobalSave" time="05:00" event="script" value="others/broadcast server/saves/globalsave.lua"/>
+	<globalevent name="record" type="record" event="script" value="others/broadcast server/player record/record.lua"/>
+	
+	<globalevent name="shop" interval="5000" script="shop.lua"/>
+	
+	<!-- Shop Server -->
+	<globalevent name="shopguild" interval="90000" event="script" value="others/shops/shopguild.lua"/>
+	
+	<!-- war anti entrosa -->
+	<globalevent name="citys_war_checks" interval="61000" event="script" value="citywar/citys_war.lua"/>
+	<globalevent name="citys_war_shutdown" type="shutdown" event="script" value="citywar/citys_war.lua"/>
+	
+		<!-- Lottery -->
+	<globalevent name="lottery" interval="10800000" script="events/lottery/lottery.lua"/>
+
+	<!-- Cast System -->
+	<globalevent name="viewers" interval="10000" event="script" value="others/cast/viewers.lua"/>
+</globalevents>

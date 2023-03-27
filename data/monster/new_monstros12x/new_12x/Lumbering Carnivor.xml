@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lumbering Carnivor" nameDescription="a Lumbering Carnivor" race="blood" experience="2200" speed="500">
+	<health now="2600" max="2600" />
+	<look type="361" head="36" body="59" legs="105" feet="85" corpse="8969" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+	<attack name="melee" interval="2000" min="-200" max="-400" />
+     <attack name="explosion" interval="2000" chance="10" radius="3" target="1" min="-200" max="-400" >
+       <attribute key="areaEffect" value="explosion"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="10" radius="4" target="0" min="-200" max="-400" >
+       <attribute key="areaEffect" value="groundshaker"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="30" length="3" spread="2" min="-100" max="-300" >
+       <attribute key="areaEffect" value="smoke"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="30" length="2" spread="0" min="-100" max="-300" >
+       <attribute key="areaEffect" value="smoke"/>
+     </attack>
+     <attack name="poisoncondition" interval="2000" range="4" chance="40" min="-50" max="-200" >
+       <attribute key="shootEffect" value="poison"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="50" radius="3" range="3" target="1" min="-25" max="-90"><!-- this represents ranged bomb attack -->
+       <attribute key="shootEffect" value="onyxarrow"/>
+     </attack>
+	</attacks>
+	<defenses armor="65" defense="20" />
+	<elements>
+		<element physicalPercent="-20" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+		<element firePercent="40" />
+		<element energyPercent="0" />
+		<element icePercent="0" />
+		<element earthPercent="0" />
+		<element drownPercent="0" />
+		<element lifedrainPercent="0" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+		<item name="platinum coin" countmax="3" chance="100000"/>
+		<item id="2376" chance="15000"/> <!--sword-->
+		<item name="Axe" chance="11550"/>
+		<item name="Ice Rapier" chance="13550"/>
+		<item name="Violet Gem" chance="25000"/>
+		<item name="Green Gem" chance="12800"/>
+		<item name="Blue Gem" chance="12000"/>
+		<item name="Two Handed Sword" chance="30000"/>
+		<item name="Blue Robe" chance="13050"/>
+		<item name="Glorious Axe" chance="12800"/>
+		<item name="Fur Armor" chance="25000"/>
+		<item name="Focus Cape" chance="800"/>
+	</loot>
+</monster>

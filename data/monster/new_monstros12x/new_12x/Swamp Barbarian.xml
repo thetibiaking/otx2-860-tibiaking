@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Swamp Barbarian" nameDescription="Swamp Barbarian" race="blood" experience="5500" speed="380" manacost="0">
+	<health now="6300" max="6300"/>
+	<look type="254" head="80" body="99" legs="118" feet="38" corpse="7349"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag targetdistance="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" skill="70" attack="150"/>
+		<attack name="speed" interval="3500" chance="35" radius="1" target="1" range="1" duration="40" speedchange="-450">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<!-- <attack name="dark music" interval="4300" chance="80" min="-200" max="-400"/> -->
+			<attack name="poison" interval="1000" chance="90" range="7" min="-90" max="-110">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>	
+	</attacks>
+	
+	<defenses armor="25" defense="27"/>
+	<elements>
+		<element firePercent="100"/>
+		<element energyPercent="100"/>
+	</elements>
+	<immunities>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="NO mommy NO. Leave me alone!"/>
+		<voice sentence="Not that tower again!"/>
+	</voices>
+</monster>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Menacing Carnivor" nameDescription="a Menacing Carnivor" race="blood" experience="3200" speed="500">
+	<health now="3500" max="3500" />
+	<look type="361" head="68" body="70" legs="101" feet="110" addons="3" corpse="8969" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+	<attack name="melee" interval="2000" min="-200" max="-400" />
+     <attack name="explosion" interval="2000" chance="40" radius="3" target="1" min="-200" max="-400" >
+       <attribute key="areaEffect" value="explosion"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="40" radius="4" target="0" min="-200" max="-400" >
+       <attribute key="areaEffect" value="groundshaker"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="30" length="3" spread="2" min="-100" max="-300" >
+       <attribute key="areaEffect" value="smoke"/>
+     </attack>
+     <attack name="earth" interval="2000" chance="30" length="5" spread="0"  min="-200" max="-400" >
+       <attribute key="areaEffect" value="poison"/>
+     </attack>
+     <attack name="physical" interval="2000" chance="30" length="2" spread="0" min="-100" max="-300" >
+       <attribute key="areaEffect" value="smoke"/>
+     </attack>
+     <attack name="cursecondition" interval="2000" range="4" chance="30" min="-50" max="-200" >
+       <attribute key="areaEffect" value="mortarea"/>
+       <attribute key="shootEffect" value="death"/>
+     </attack>
+	</attacks>
+	<defenses armor="68" defense="25" />
+	<elements>
+		<element physicalPercent="-50" />
+		<element holyPercent="0" />
+		<element deathPercent="0" />
+		<element firePercent="0" />
+		<element energyPercent="0" />
+		<element icePercent="20" />
+		<element earthPercent="0" />
+		<element drownPercent="0" />
+		<element lifedrainPercent="0" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+<!--common-->
+<item name="platinum coin" countmin="0" countmax="8" chance="100000" /> 
+<item name="Morning Star" chance="100000" /> 
+<!--uncommon-->
+<item name="Small Ruby" chance="15000" />
+<item name="Terra Rod" chance="11550" />    
+<item name="Crystal Sword" chance="13550" />
+<!--semi-rare-->
+<item name="Small Enchanted Ruby" chance="25100" /> 
+<item name="Terra Legs" chance="25000" /> 
+<item name="Wand of Dragonbreath" chance="12800" /> 
+<item name="Serpent Sword" chance="12000" />
+<item name="Machete" chance="30000" />
+<item name="Heavy Machete" chance="13050" />
+<item name="Iron Helmet" chance="12800" /> 
+<item name="Knight Legs" chance="10050" />
+<item name="Wand of Starstorm" chance="22000" /> 
+<item name="Wand of Voodoo" chance="24600" /> 
+<!--rare-->  
+<item name="Wand of Decay" chance="1800" /> 
+</loot>
+</monster>

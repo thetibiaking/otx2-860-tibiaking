@@ -1,0 +1,780 @@
+[30/12/2022 11:29:40] >> Loading Password encryption:
+[30/12/2022 11:29:40] >>> Using (SHA1) encryption ... (done).
+[30/12/2022 11:29:40] >> Loading RSA key
+[30/12/2022 11:29:40] >> Starting SQL connection
+[30/12/2022 11:29:40] >> Running Database Manager
+[30/12/2022 11:29:40] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[30/12/2022 11:29:41] > Optimizing table: player_items... [success]
+[30/12/2022 11:29:42] > Optimizing table: player_storage... [success]
+[30/12/2022 11:29:44] > Optimizing table: tile_store... [success]
+[30/12/2022 11:29:44] >> Checking for duplicated items
+[30/12/2022 11:29:44] >> Loading items (OTB)
+[30/12/2022 11:29:44] >> Loading items (XML)
+[30/12/2022 11:29:44] >> Loading groups
+[30/12/2022 11:29:44] >> Loading outfits
+[30/12/2022 11:29:44] >> Loading quests
+[30/12/2022 11:29:44] >> Loading raids
+[30/12/2022 11:29:44] >> Loading vocations
+[30/12/2022 11:29:44] >> Loading chat channels
+[30/12/2022 11:29:44] >> Loading experience stages
+[30/12/2022 11:29:44] >> Loading mods:
+[30/12/2022 11:29:44] >>> Loading custommonsters.xml ... (done).
+[30/12/2022 11:29:44] >>> (0) mods were disabled.
+[30/12/2022 11:29:44] >> Loading script systems:
+[30/12/2022 11:29:44] >>> Loading global... [Error - LuaInterface::loadFile] cannot open data/global.lua: No such file or directory
+[30/12/2022 11:29:44] failed!
+[30/12/2022 11:30:6] >> Loading Password encryption:
+[30/12/2022 11:30:6] >>> Using (SHA1) encryption ... (done).
+[30/12/2022 11:30:6] >> Loading RSA key
+[30/12/2022 11:30:6] >> Starting SQL connection
+[30/12/2022 11:30:6] >> Running Database Manager
+[30/12/2022 11:30:6] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[30/12/2022 11:30:7] > Optimizing table: player_items... [success]
+[30/12/2022 11:30:7] > Optimizing table: player_storage... [success]
+[30/12/2022 11:30:8] > Optimizing table: tile_store... [success]
+[30/12/2022 11:30:8] >> Checking for duplicated items
+[30/12/2022 11:30:8] >> Loading items (OTB)
+[30/12/2022 11:30:8] >> Loading items (XML)
+[30/12/2022 11:30:8] >> Loading groups
+[30/12/2022 11:30:8] >> Loading outfits
+[30/12/2022 11:30:8] >> Loading quests
+[30/12/2022 11:30:8] >> Loading raids
+[30/12/2022 11:30:8] >> Loading vocations
+[30/12/2022 11:30:8] >> Loading chat channels
+[30/12/2022 11:30:8] >> Loading experience stages
+[30/12/2022 11:30:8] >> Loading mods:
+[30/12/2022 11:30:8] >>> Loading custommonsters.xml ... (done).
+[30/12/2022 11:30:8] >>> (0) mods were disabled.
+[30/12/2022 11:30:8] >> Loading script systems:
+[30/12/2022 11:30:8] >>> Loading global... 
+[30/12/2022 11:30:8] [Error - Main Interface] 
+[30/12/2022 11:30:8] data/global.lua
+[30/12/2022 11:30:8] Description: 
+[30/12/2022 11:30:8] cannot open data/lib/lib.lua: No such file or directory
+[30/12/2022 11:30:8] failed!
+[30/12/2022 11:30:47] >> Loading Password encryption:
+[30/12/2022 11:30:47] >>> Using (SHA1) encryption ... (done).
+[30/12/2022 11:30:47] >> Loading RSA key
+[30/12/2022 11:30:47] >> Starting SQL connection
+[30/12/2022 11:30:47] >> Running Database Manager
+[30/12/2022 11:30:47] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[30/12/2022 11:30:47] > Optimizing table: player_items... [success]
+[30/12/2022 11:30:48] > Optimizing table: player_storage... [success]
+[30/12/2022 11:30:48] > Optimizing table: tile_store... [success]
+[30/12/2022 11:30:48] >> Checking for duplicated items
+[30/12/2022 11:30:48] >> Loading items (OTB)
+[30/12/2022 11:30:48] >> Loading items (XML)
+[30/12/2022 11:30:48] >> Loading groups
+[30/12/2022 11:30:48] >> Loading outfits
+[30/12/2022 11:30:48] >> Loading quests
+[30/12/2022 11:30:48] >> Loading raids
+[30/12/2022 11:30:48] >> Loading vocations
+[30/12/2022 11:30:48] >> Loading chat channels
+[30/12/2022 11:30:48] >> Loading experience stages
+[30/12/2022 11:30:48] >> Loading mods:
+[30/12/2022 11:30:48] >>> Loading custommonsters.xml ... (done).
+[30/12/2022 11:30:48] >>> (0) mods were disabled.
+[30/12/2022 11:30:48] >> Loading script systems:
+[30/12/2022 11:30:49] >>> Loading global... (done).
+[30/12/2022 11:30:49] >>> Loading weapons... (done).
+[30/12/2022 11:30:49] >>> Preparing weapons... (done).
+[30/12/2022 11:30:49] >>> Loading spells... (done).
+[30/12/2022 11:30:49] >>> Loading actions... (done).
+[30/12/2022 11:30:49] >>> Loading talkactions... (done).
+[30/12/2022 11:30:49] >>> Loading movements... (done).
+[30/12/2022 11:30:49] >>> Loading creaturescripts... (done).
+[30/12/2022 11:30:49] >>> Loading globalscripts... (done).
+[30/12/2022 11:30:49] >> Loading monsters
+[30/12/2022 11:30:49] >> Loading raids
+[30/12/2022 11:30:49] >> Loading map and spawns...
+[30/12/2022 11:30:51] >>> Map size: 52997x57905.
+[30/12/2022 11:30:58] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[30/12/2022 11:30:58] >>> Loading time: 8.786 seconds.
+[30/12/2022 11:30:59] >>> Parsing time: 1.133 seconds.
+[30/12/2022 11:31:0] >>> Synchronization time: 0.27 seconds.
+[30/12/2022 11:31:0] >>> Unserialization time: 0.054 seconds.
+[30/12/2022 11:31:0] >> Checking world type... Open PvP
+[30/12/2022 11:31:0] >> Starting to dominate the world... done.
+[30/12/2022 11:31:0] >> Initializing game state and binding services:
+
+[30/12/2022 11:31:0] >> Everything smells good, server is starting up...
+[30/12/2022 11:31:1] >> Extreme-War server Online!
+
+[8/1/2023 10:29:17] >> Loading Password encryption:
+[8/1/2023 10:29:17] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 10:29:17] >> Loading RSA key
+[8/1/2023 10:29:17] >> Starting SQL connection
+
+[8/1/2023 10:29:21] Failed connecting to database - MYSQL ERROR: Can't connect to server on 'localhost' (10061) (2002)
+
+[8/1/2023 10:29:21] > ERROR: Couldn't estabilish connection to SQL database!
+[8/1/2023 10:29:26] >> Loading Password encryption:
+[8/1/2023 10:29:26] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 10:29:26] >> Loading RSA key
+[8/1/2023 10:29:26] >> Starting SQL connection
+[8/1/2023 10:29:26] >> Running Database Manager
+[8/1/2023 10:29:26] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 10:29:27] > Optimizing table: player_items... [success]
+[8/1/2023 10:29:28] > Optimizing table: player_storage... [success]
+[8/1/2023 10:29:28] >> Checking for duplicated items
+[8/1/2023 10:29:28] >> Loading items (OTB)
+[8/1/2023 10:29:28] >> Loading items (XML)
+[8/1/2023 10:29:28] >> Loading groups
+[8/1/2023 10:29:28] >> Loading outfits
+[8/1/2023 10:29:28] >> Loading quests
+[8/1/2023 10:29:28] >> Loading raids
+[8/1/2023 10:29:28] >> Loading vocations
+[8/1/2023 10:29:28] >> Loading chat channels
+[8/1/2023 10:29:28] >> Loading experience stages
+[8/1/2023 10:29:28] >> Loading mods:
+[8/1/2023 10:29:28] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 10:29:28] >>> (0) mods were disabled.
+[8/1/2023 10:29:28] >> Loading script systems:
+[8/1/2023 10:29:28] >>> Loading global... (done).
+[8/1/2023 10:29:28] >>> Loading weapons... (done).
+[8/1/2023 10:29:28] >>> Preparing weapons... (done).
+[8/1/2023 10:29:28] >>> Loading spells... (done).
+[8/1/2023 10:29:29] >>> Loading actions... (done).
+[8/1/2023 10:29:29] >>> Loading talkactions... (done).
+[8/1/2023 10:29:30] >>> Loading movements... (done).
+[8/1/2023 10:29:30] >>> Loading creaturescripts... (done).
+[8/1/2023 10:29:30] >>> Loading globalscripts... (done).
+[8/1/2023 10:29:30] >> Loading monsters
+[8/1/2023 10:29:33] >> Loading raids
+[8/1/2023 10:29:33] >> Loading map and spawns...
+[8/1/2023 10:29:34] >>> Map size: 52997x57905.
+[8/1/2023 10:29:42] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 10:29:42] >>> Loading time: 8.805 seconds.
+[8/1/2023 10:29:44] [Warning - Npc::createNpc] Cannot find npc with name: Loui.
+[8/1/2023 10:29:45] >>> Parsing time: 2.763 seconds.
+[8/1/2023 10:29:45] >>> Synchronization time: 0.195 seconds.
+[8/1/2023 10:29:45] >>> Unserialization time: 0.008 seconds.
+[8/1/2023 10:29:45] >> Checking world type... Open PvP
+[8/1/2023 10:29:45] >> Starting to dominate the world... done.
+[8/1/2023 10:29:45] >> Initializing game state and binding services:
+
+[8/1/2023 10:29:45] [Error - GlobalEvent Interface] 
+[8/1/2023 10:29:45] data/globalevents/scripts/BattleGlobalStart.lua:onStartup
+[8/1/2023 10:29:45] Description: 
+[8/1/2023 10:29:45] data/globalevents/scripts/BattleGlobalStart.lua:3: attempt to index global '_Lib_Battle_Info' (a nil value)
+[8/1/2023 10:29:45] stack traceback:
+[8/1/2023 10:29:45] 	data/globalevents/scripts/BattleGlobalStart.lua:3: in function <data/globalevents/scripts/BattleGlobalStart.lua:1>
+
+[8/1/2023 10:29:45] [Error - GlobalEvent Interface] 
+[8/1/2023 10:29:45] data/globalevents/scripts/zombie/onstartup.lua:onStartup
+[8/1/2023 10:29:45] Description: 
+[8/1/2023 10:29:45] data/globalevents/scripts/zombie/onstartup.lua:2: attempt to call global 'resetaStorageZombieEvent' (a nil value)
+[8/1/2023 10:29:45] stack traceback:
+[8/1/2023 10:29:45] 	data/globalevents/scripts/zombie/onstartup.lua:2: in function <data/globalevents/scripts/zombie/onstartup.lua:1>
+
+[8/1/2023 10:29:45] >> Everything smells good, server is starting up...
+
+[8/1/2023 10:29:45] [Error - GlobalEvent Interface] 
+[8/1/2023 10:29:45] data/globalevents/scripts/zombie/onthink.lua:onThink
+[8/1/2023 10:29:45] Description: 
+[8/1/2023 10:29:45] data/globalevents/scripts/zombie/onthink.lua:2: attempt to call global 'getStatusZombieEvent' (a nil value)
+[8/1/2023 10:29:45] stack traceback:
+[8/1/2023 10:29:45] 	data/globalevents/scripts/zombie/onthink.lua:2: in function <data/globalevents/scripts/zombie/onthink.lua:1>
+[8/1/2023 10:29:45] [Error - GlobalEvents::think] Couldn't execute event: ZombieGlobalThink
+[8/1/2023 10:29:46] >> Extreme-War server Online!
+
+[8/1/2023 10:32:24] >> Loading Password encryption:
+[8/1/2023 10:32:24] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 10:32:24] >> Loading RSA key
+[8/1/2023 10:32:24] >> Starting SQL connection
+[8/1/2023 10:32:24] >> Running Database Manager
+[8/1/2023 10:32:25] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 10:32:26] > Optimizing table: player_items... [success]
+[8/1/2023 10:32:26] > Optimizing table: player_storage... [success]
+[8/1/2023 10:32:26] >> Checking for duplicated items
+[8/1/2023 10:32:27] >> Loading items (OTB)
+[8/1/2023 10:32:27] >> Loading items (XML)
+[8/1/2023 10:32:27] >> Loading groups
+[8/1/2023 10:32:27] >> Loading outfits
+[8/1/2023 10:32:27] >> Loading quests
+[8/1/2023 10:32:27] >> Loading raids
+[8/1/2023 10:32:27] >> Loading vocations
+[8/1/2023 10:32:27] >> Loading chat channels
+[8/1/2023 10:32:27] >> Loading experience stages
+[8/1/2023 10:32:27] >> Loading mods:
+[8/1/2023 10:32:27] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 10:32:27] >>> (0) mods were disabled.
+[8/1/2023 10:32:27] >> Loading script systems:
+[8/1/2023 10:32:27] >>> Loading global... (done).
+[8/1/2023 10:32:27] >>> Loading weapons... (done).
+[8/1/2023 10:32:27] >>> Preparing weapons... (done).
+[8/1/2023 10:32:27] >>> Loading spells... (done).
+[8/1/2023 10:32:27] >>> Loading actions... (done).
+[8/1/2023 10:32:27] >>> Loading talkactions... (done).
+[8/1/2023 10:32:27] >>> Loading movements... (done).
+[8/1/2023 10:32:27] >>> Loading creaturescripts... (done).
+[8/1/2023 10:32:27] >>> Loading globalscripts... (done).
+[8/1/2023 10:32:27] >> Loading monsters
+[8/1/2023 10:32:28] >> Loading raids
+[8/1/2023 10:32:28] >> Loading map and spawns...
+[8/1/2023 10:32:29] >>> Map size: 52997x57905.
+[8/1/2023 10:32:36] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 10:32:36] >>> Loading time: 8.631 seconds.
+[8/1/2023 10:32:37] [Warning - Npc::createNpc] Cannot find npc with name: Loui.
+[8/1/2023 10:32:37] >>> Parsing time: 0.912 seconds.
+[8/1/2023 10:32:37] >>> Synchronization time: 0.293 seconds.
+[8/1/2023 10:32:37] >>> Unserialization time: 0.009 seconds.
+[8/1/2023 10:32:37] >> Checking world type... Open PvP
+[8/1/2023 10:32:37] >> Starting to dominate the world... done.
+[8/1/2023 10:32:37] >> Initializing game state and binding services:
+
+[8/1/2023 10:32:38] >> Everything smells good, server is starting up...
+[8/1/2023 10:32:39] >> Extreme-War server Online!
+
+[8/1/2023 10:35:52] >> Loading Password encryption:
+[8/1/2023 10:35:52] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 10:35:52] >> Loading RSA key
+[8/1/2023 10:35:52] >> Starting SQL connection
+[8/1/2023 10:35:52] >> Running Database Manager
+[8/1/2023 10:35:52] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 10:35:53] > Optimizing table: player_items... [success]
+[8/1/2023 10:35:54] > Optimizing table: player_storage... [success]
+[8/1/2023 10:35:54] >> Checking for duplicated items
+[8/1/2023 10:35:54] >> Loading items (OTB)
+[8/1/2023 10:35:54] >> Loading items (XML)
+[8/1/2023 10:35:54] >> Loading groups
+[8/1/2023 10:35:54] >> Loading outfits
+[8/1/2023 10:35:54] >> Loading quests
+[8/1/2023 10:35:54] >> Loading raids
+[8/1/2023 10:35:54] >> Loading vocations
+[8/1/2023 10:35:54] >> Loading chat channels
+[8/1/2023 10:35:54] >> Loading experience stages
+[8/1/2023 10:35:54] >> Loading mods:
+[8/1/2023 10:35:54] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 10:35:54] >>> (0) mods were disabled.
+[8/1/2023 10:35:54] >> Loading script systems:
+[8/1/2023 10:35:54] >>> Loading global... (done).
+[8/1/2023 10:35:54] >>> Loading weapons... (done).
+[8/1/2023 10:35:54] >>> Preparing weapons... (done).
+[8/1/2023 10:35:54] >>> Loading spells... (done).
+[8/1/2023 10:35:54] >>> Loading actions... (done).
+[8/1/2023 10:35:54] >>> Loading talkactions... (done).
+[8/1/2023 10:35:54] >>> Loading movements... (done).
+[8/1/2023 10:35:55] >>> Loading creaturescripts... (done).
+[8/1/2023 10:35:55] >>> Loading globalscripts... (done).
+[8/1/2023 10:35:55] >> Loading monsters
+[8/1/2023 10:35:55] >> Loading raids
+[8/1/2023 10:35:55] >> Loading map and spawns...
+[8/1/2023 10:35:56] >>> Map size: 52997x57905.
+[8/1/2023 10:36:4] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 10:36:4] >>> Loading time: 8.759 seconds.
+[8/1/2023 10:36:5] [Warning - Npc::createNpc] Cannot find npc with name: Loui.
+[8/1/2023 10:36:5] >>> Parsing time: 0.907 seconds.
+[8/1/2023 10:36:5] >>> Synchronization time: 0.182 seconds.
+[8/1/2023 10:36:5] >>> Unserialization time: 0.007 seconds.
+[8/1/2023 10:36:5] >> Checking world type... Open PvP
+[8/1/2023 10:36:5] >> Starting to dominate the world... done.
+[8/1/2023 10:36:5] >> Initializing game state and binding services:
+
+[8/1/2023 10:36:5] >> Everything smells good, server is starting up...
+[8/1/2023 10:36:6] >> Extreme-War server Online!
+
+[8/1/2023 10:40:29] mysql_real_query(): SELECT * FROM z_ots_guildcomunication WHERE `type` = 'login'; - MYSQL ERROR: Can't connect to server on 'localhost' (10061) (2002)
+[8/1/2023 10:41:58] >> Loading Password encryption:
+[8/1/2023 10:41:58] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 10:41:58] >> Loading RSA key
+[8/1/2023 10:41:58] >> Starting SQL connection
+[8/1/2023 10:41:58] >> Running Database Manager
+[8/1/2023 10:41:58] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 10:42:0] > Optimizing table: player_items... [success]
+[8/1/2023 10:42:1] > Optimizing table: player_storage... [success]
+[8/1/2023 10:42:1] >> Checking for duplicated items
+[8/1/2023 10:42:1] >> Loading items (OTB)
+[8/1/2023 10:42:1] >> Loading items (XML)
+[8/1/2023 10:42:1] >> Loading groups
+[8/1/2023 10:42:1] >> Loading outfits
+[8/1/2023 10:42:1] >> Loading quests
+[8/1/2023 10:42:1] >> Loading raids
+[8/1/2023 10:42:1] >> Loading vocations
+[8/1/2023 10:42:1] >> Loading chat channels
+[8/1/2023 10:42:1] >> Loading experience stages
+[8/1/2023 10:42:1] >> Loading mods:
+[8/1/2023 10:42:1] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 10:42:1] >>> (0) mods were disabled.
+[8/1/2023 10:42:1] >> Loading script systems:
+[8/1/2023 10:42:1] >>> Loading global... (done).
+[8/1/2023 10:42:1] >>> Loading weapons... (done).
+[8/1/2023 10:42:1] >>> Preparing weapons... (done).
+[8/1/2023 10:42:1] >>> Loading spells... (done).
+[8/1/2023 10:42:1] >>> Loading actions... (done).
+[8/1/2023 10:42:1] >>> Loading talkactions... (done).
+[8/1/2023 10:42:1] >>> Loading movements... (done).
+[8/1/2023 10:42:1] >>> Loading creaturescripts... (done).
+[8/1/2023 10:42:1] >>> Loading globalscripts... (done).
+[8/1/2023 10:42:1] >> Loading monsters
+[8/1/2023 10:42:2] >> Loading raids
+[8/1/2023 10:42:2] >> Loading map and spawns...
+[8/1/2023 10:42:3] >>> Map size: 52997x57905.
+[8/1/2023 10:42:11] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 10:42:11] >>> Loading time: 8.882 seconds.
+[8/1/2023 10:42:12] >>> Parsing time: 1.034 seconds.
+[8/1/2023 10:42:12] >>> Synchronization time: 0.182 seconds.
+[8/1/2023 10:42:12] >>> Unserialization time: 0.007 seconds.
+[8/1/2023 10:42:12] >> Checking world type... Open PvP
+[8/1/2023 10:42:12] >> Starting to dominate the world... done.
+[8/1/2023 10:42:12] >> Initializing game state and binding services:
+
+[8/1/2023 10:42:12] >> Everything smells good, server is starting up...
+[8/1/2023 10:42:13] >> Extreme-War server Online!
+
+[8/1/2023 11:3:49] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 11:3:49] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 11:3:49] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 11:3:49] >>> (0) mods were disabled.
+[8/1/2023 11:7:41] >> Loading Password encryption:
+[8/1/2023 11:7:41] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 11:7:41] >> Loading RSA key
+[8/1/2023 11:7:41] >> Starting SQL connection
+[8/1/2023 11:7:41] >> Running Database Manager
+[8/1/2023 11:7:41] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 11:7:42] > Optimizing table: player_items... [success]
+[8/1/2023 11:7:43] > Optimizing table: player_storage... [success]
+[8/1/2023 11:7:43] >> Checking for duplicated items
+[8/1/2023 11:7:43] >> Loading items (OTB)
+[8/1/2023 11:7:43] >> Loading items (XML)
+[8/1/2023 11:7:43] >> Loading groups
+[8/1/2023 11:7:43] >> Loading outfits
+[8/1/2023 11:7:43] >> Loading quests
+[8/1/2023 11:7:43] >> Loading raids
+[8/1/2023 11:7:43] >> Loading vocations
+[8/1/2023 11:7:43] >> Loading chat channels
+[8/1/2023 11:7:43] >> Loading experience stages
+[8/1/2023 11:7:43] >> Loading mods:
+[8/1/2023 11:7:43] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 11:7:43] >>> (0) mods were disabled.
+[8/1/2023 11:7:43] >> Loading script systems:
+[8/1/2023 11:7:43] >>> Loading global... (done).
+[8/1/2023 11:7:43] >>> Loading weapons... (done).
+[8/1/2023 11:7:43] >>> Preparing weapons... (done).
+[8/1/2023 11:7:43] >>> Loading spells... (done).
+[8/1/2023 11:7:43] >>> Loading actions... (done).
+[8/1/2023 11:7:43] >>> Loading talkactions... (done).
+[8/1/2023 11:7:43] >>> Loading movements... (done).
+[8/1/2023 11:7:44] >>> Loading creaturescripts... (done).
+[8/1/2023 11:7:44] >>> Loading globalscripts... (done).
+[8/1/2023 11:7:44] >> Loading monsters
+[8/1/2023 11:7:44] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 11:7:44] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 11:7:44] >> Loading raids
+[8/1/2023 11:7:44] >> Loading map and spawns...
+[8/1/2023 11:7:45] >>> Map size: 52997x57905.
+[8/1/2023 11:7:53] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 11:7:53] >>> Loading time: 8.59 seconds.
+[8/1/2023 11:7:54] >>> Parsing time: 0.893 seconds.
+[8/1/2023 11:7:54] >>> Synchronization time: 0.399 seconds.
+[8/1/2023 11:7:54] >>> Unserialization time: 0.009 seconds.
+[8/1/2023 11:7:54] >> Checking world type... Open PvP
+[8/1/2023 11:7:54] >> Starting to dominate the world... done.
+[8/1/2023 11:7:54] >> Initializing game state and binding services:
+
+[8/1/2023 11:7:54] >> Everything smells good, server is starting up...
+[8/1/2023 11:7:55] >> Extreme-War server Online!
+
+[8/1/2023 11:8:24] [Warning - Monster::Monster] Unknown event name - GazharagothHeal
+[8/1/2023 13:22:52] >> Loading Password encryption:
+[8/1/2023 13:22:52] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 13:22:52] >> Loading RSA key
+[8/1/2023 13:22:52] >> Starting SQL connection
+[8/1/2023 13:22:52] >> Running Database Manager
+[8/1/2023 13:22:52] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 13:22:53] > Optimizing table: player_items... [success]
+[8/1/2023 13:22:53] > Optimizing table: player_storage... [success]
+[8/1/2023 13:22:53] >> Checking for duplicated items
+[8/1/2023 13:22:53] >> Loading items (OTB)
+[8/1/2023 13:22:53] >> Loading items (XML)
+[8/1/2023 13:22:53] >> Loading groups
+[8/1/2023 13:22:53] >> Loading outfits
+[8/1/2023 13:22:53] >> Loading quests
+[8/1/2023 13:22:53] >> Loading raids
+[8/1/2023 13:22:53] >> Loading vocations
+[8/1/2023 13:22:53] >> Loading chat channels
+[8/1/2023 13:22:53] >> Loading experience stages
+[8/1/2023 13:22:53] >> Loading mods:
+[8/1/2023 13:22:53] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 13:22:53] >>> (0) mods were disabled.
+[8/1/2023 13:22:53] >> Loading script systems:
+[8/1/2023 13:22:53] >>> Loading global... (done).
+[8/1/2023 13:22:53] >>> Loading weapons... (done).
+[8/1/2023 13:22:53] >>> Preparing weapons... (done).
+[8/1/2023 13:22:53] >>> Loading spells... (done).
+[8/1/2023 13:22:54] >>> Loading actions... (done).
+[8/1/2023 13:22:54] >>> Loading talkactions... (done).
+[8/1/2023 13:22:54] >>> Loading movements... (done).
+[8/1/2023 13:22:54] >>> Loading creaturescripts... (done).
+[8/1/2023 13:22:54] >>> Loading globalscripts... (done).
+[8/1/2023 13:22:54] >> Loading monsters
+[8/1/2023 13:22:54] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 13:22:54] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 13:22:54] >> Loading raids
+[8/1/2023 13:22:54] >> Loading map and spawns...
+[8/1/2023 13:22:56] >>> Map size: 52997x57905.
+[8/1/2023 13:23:3] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 13:23:3] >>> Loading time: 8.894 seconds.
+[8/1/2023 13:23:4] >>> Parsing time: 0.95 seconds.
+[8/1/2023 13:23:5] >>> Synchronization time: 0.185 seconds.
+[8/1/2023 13:23:5] >>> Unserialization time: 0.007 seconds.
+[8/1/2023 13:23:5] >> Checking world type... Open PvP
+[8/1/2023 13:23:5] >> Starting to dominate the world... done.
+[8/1/2023 13:23:5] >> Initializing game state and binding services:
+
+[8/1/2023 13:23:5] >> Everything smells good, server is starting up...
+[8/1/2023 13:23:6] >> Extreme-War server Online!
+
+[8/1/2023 14:7:11] >> Loading Password encryption:
+[8/1/2023 14:7:11] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 14:7:11] >> Loading RSA key
+[8/1/2023 14:7:11] >> Starting SQL connection
+
+[8/1/2023 14:7:15] Failed connecting to database - MYSQL ERROR: Can't connect to server on 'localhost' (10061) (2002)
+
+[8/1/2023 14:7:15] > ERROR: Couldn't estabilish connection to SQL database!
+[8/1/2023 14:7:24] >> Loading Password encryption:
+[8/1/2023 14:7:24] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 14:7:24] >> Loading RSA key
+[8/1/2023 14:7:24] >> Starting SQL connection
+[8/1/2023 14:7:24] >> Running Database Manager
+[8/1/2023 14:7:24] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 14:7:24] > Optimizing table: player_items... [success]
+[8/1/2023 14:7:25] > Optimizing table: player_storage... [success]
+[8/1/2023 14:7:25] >> Checking for duplicated items
+[8/1/2023 14:7:25] >> Loading items (OTB)
+[8/1/2023 14:7:25] >> Loading items (XML)
+[8/1/2023 14:7:25] >> Loading groups
+[8/1/2023 14:7:25] >> Loading outfits
+[8/1/2023 14:7:25] >> Loading quests
+[8/1/2023 14:7:25] >> Loading raids
+[8/1/2023 14:7:25] >> Loading vocations
+[8/1/2023 14:7:25] >> Loading chat channels
+[8/1/2023 14:7:25] >> Loading experience stages
+[8/1/2023 14:7:25] >> Loading mods:
+[8/1/2023 14:7:25] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 14:7:25] >>> (0) mods were disabled.
+[8/1/2023 14:7:25] >> Loading script systems:
+[8/1/2023 14:7:25] >>> Loading global... (done).
+[8/1/2023 14:7:25] >>> Loading weapons... (done).
+[8/1/2023 14:7:25] >>> Preparing weapons... (done).
+[8/1/2023 14:7:25] >>> Loading spells... (done).
+[8/1/2023 14:7:25] >>> Loading actions... (done).
+[8/1/2023 14:7:25] >>> Loading talkactions... (done).
+[8/1/2023 14:7:25] >>> Loading movements... (done).
+[8/1/2023 14:7:25] >>> Loading creaturescripts... (done).
+[8/1/2023 14:7:25] >>> Loading globalscripts... (done).
+[8/1/2023 14:7:25] >> Loading monsters
+[8/1/2023 14:7:26] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 14:7:26] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 14:7:26] >> Loading raids
+[8/1/2023 14:7:26] >> Loading map and spawns...
+[8/1/2023 14:7:27] >>> Map size: 52997x57905.
+[8/1/2023 14:7:35] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 14:7:35] >>> Loading time: 8.736 seconds.
+[8/1/2023 14:7:37] >>> Parsing time: 1.954 seconds.
+[8/1/2023 14:7:37] >>> Synchronization time: 0.253 seconds.
+[8/1/2023 14:7:37] >>> Unserialization time: 0.007 seconds.
+[8/1/2023 14:7:37] >> Checking world type... Open PvP
+[8/1/2023 14:7:37] >> Starting to dominate the world... done.
+[8/1/2023 14:7:37] >> Initializing game state and binding services:
+
+[8/1/2023 14:7:37] >> Everything smells good, server is starting up...
+[8/1/2023 14:7:38] >> Extreme-War server Online!
+
+[8/1/2023 14:8:46] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 14:8:46] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 14:8:46] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 14:8:46] >>> (0) mods were disabled.
+[8/1/2023 14:9:38] >> Loading Password encryption:
+[8/1/2023 14:9:38] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 14:9:38] >> Loading RSA key
+[8/1/2023 14:9:38] >> Starting SQL connection
+[8/1/2023 14:9:38] >> Running Database Manager
+[8/1/2023 14:9:39] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 14:9:40] > Optimizing table: player_items... [success]
+[8/1/2023 14:9:40] > Optimizing table: player_storage... [success]
+[8/1/2023 14:9:40] >> Checking for duplicated items
+[8/1/2023 14:9:40] >> Loading items (OTB)
+[8/1/2023 14:9:40] >> Loading items (XML)
+[8/1/2023 14:9:41] >> Loading groups
+[8/1/2023 14:9:41] >> Loading outfits
+[8/1/2023 14:9:41] >> Loading quests
+[8/1/2023 14:9:41] >> Loading raids
+[8/1/2023 14:9:41] >> Loading vocations
+[8/1/2023 14:9:41] >> Loading chat channels
+[8/1/2023 14:9:41] >> Loading experience stages
+[8/1/2023 14:9:41] >> Loading mods:
+[8/1/2023 14:9:41] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 14:9:41] >>> (0) mods were disabled.
+[8/1/2023 14:9:41] >> Loading script systems:
+[8/1/2023 14:9:41] >>> Loading global... (done).
+[8/1/2023 14:9:41] >>> Loading weapons... (done).
+[8/1/2023 14:9:41] >>> Preparing weapons... (done).
+[8/1/2023 14:9:41] >>> Loading spells... (done).
+[8/1/2023 14:9:41] >>> Loading actions... (done).
+[8/1/2023 14:9:41] >>> Loading talkactions... (done).
+[8/1/2023 14:9:41] >>> Loading movements... (done).
+[8/1/2023 14:9:41] >>> Loading creaturescripts... (done).
+[8/1/2023 14:9:41] >>> Loading globalscripts... (done).
+[8/1/2023 14:9:41] >> Loading monsters
+[8/1/2023 14:9:41] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 14:9:41] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[8/1/2023 14:9:42] >> Loading raids
+[8/1/2023 14:9:42] >> Loading map and spawns...
+[8/1/2023 14:9:43] >>> Map size: 52997x57905.
+[8/1/2023 14:9:50] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "No map description available."
+[8/1/2023 14:9:50] >>> Loading time: 8.741 seconds.
+[8/1/2023 14:9:51] >>> Parsing time: 0.954 seconds.
+[8/1/2023 14:9:51] >>> Synchronization time: 0.177 seconds.
+[8/1/2023 14:9:51] >>> Unserialization time: 0.007 seconds.
+[8/1/2023 14:9:51] >> Checking world type... Open PvP
+[8/1/2023 14:9:51] >> Starting to dominate the world... done.
+[8/1/2023 14:9:51] >> Initializing game state and binding services:
+
+[8/1/2023 14:9:52] >> Everything smells good, server is starting up...
+[8/1/2023 14:9:53] >> Extreme-War server Online!
+
+[8/1/2023 14:13:38] >> Loading Password encryption:
+[8/1/2023 14:13:38] >>> Using (SHA1) encryption ... (done).
+[8/1/2023 14:13:38] >> Loading RSA key
+[8/1/2023 14:13:38] >> Starting SQL connection
+[8/1/2023 14:13:38] >> Running Database Manager
+[8/1/2023 14:13:38] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[8/1/2023 14:13:38] > Optimizing table: player_items... [success]
+[8/1/2023 14:13:39] > Optimizing table: player_storage... [success]
+[8/1/2023 14:13:39] >> Checking for duplicated items
+[8/1/2023 14:13:39] >> Loading items (OTB)
+[8/1/2023 14:13:39] >> Loading items (XML)
+[8/1/2023 14:13:39] >> Loading groups
+[8/1/2023 14:13:39] >> Loading outfits
+[8/1/2023 14:13:39] >> Loading quests
+[8/1/2023 14:13:39] >> Loading raids
+[8/1/2023 14:13:39] >> Loading vocations
+[8/1/2023 14:13:39] >> Loading chat channels
+[8/1/2023 14:13:39] >> Loading experience stages
+[8/1/2023 14:13:39] >> Loading mods:
+[8/1/2023 14:13:39] >>> Loading custommonsters.xml ... (done).
+[8/1/2023 14:13:39] >>> (0) mods were disabled.
+[8/1/2023 14:13:39] >> Loading script systems:
+[8/1/2023 14:13:39] >>> Loading global... (done).
+[8/1/2023 14:13:39] >>> Loading weapons... (done).
+[8/1/2023 14:13:39] >>> Preparing weapons... (done).
+[8/1/2023 14:13:39] >>> Loading spells... (done).
+[8/1/2023 14:13:40] >>> Loading actions... (done).
+[8/1/2023 14:13:40] >>> Loading talkactions... (done).
+[8/1/2023 14:13:40] >>> Loading movements... (done).
+[8/1/2023 14:13:40] >>> Loading creaturescripts... (done).
+[8/1/2023 14:13:40] >>> Loading globalscripts... (done).
+[8/1/2023 14:13:40] >> Loading monsters
+[8/1/2023 14:13:40] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[8/1/2023 14:13:40] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[16/1/2023 17:1:58] >> Loading Password encryption:
+[16/1/2023 17:1:58] >>> Using (SHA1) encryption ... (done).
+[16/1/2023 17:1:58] >> Loading RSA key
+[16/1/2023 17:1:58] >> Starting SQL connection
+[16/1/2023 17:1:58] >> Running Database Manager
+[16/1/2023 17:1:58] > Updating database to version 44... (House Protection System)
+[16/1/2023 17:1:58] > Database has been updated to version: 44.
+[16/1/2023 17:1:58] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[16/1/2023 17:1:59] > Optimizing table: tile_store... [success]
+[16/1/2023 17:1:59] >> Checking for duplicated items
+[16/1/2023 17:1:59] >> Loading items (OTB)
+[16/1/2023 17:1:59] >> Loading items (XML)
+[16/1/2023 17:1:59] >> Loading groups
+[16/1/2023 17:1:59] >> Loading outfits
+[16/1/2023 17:1:59] >> Loading quests
+[16/1/2023 17:1:59] >> Loading raids
+[16/1/2023 17:1:59] >> Loading vocations
+[16/1/2023 17:1:59] >> Loading chat channels
+[16/1/2023 17:1:59] >> Loading experience stages
+[16/1/2023 17:1:59] >> Loading mods:
+[16/1/2023 17:2:0] >>> Loading custommonsters.xml ... (done).
+[16/1/2023 17:2:0] >>> (0) mods were disabled.
+[16/1/2023 17:2:0] >> Loading script systems:
+[16/1/2023 17:2:0] >>> Loading global... (done).
+[16/1/2023 17:2:0] >>> Loading weapons... (done).
+[16/1/2023 17:2:0] >>> Preparing weapons... (done).
+[16/1/2023 17:2:1] >>> Loading spells... (done).
+[16/1/2023 17:2:3] >>> Loading actions... (done).
+[16/1/2023 17:2:4] >>> Loading talkactions... (done).
+[16/1/2023 17:2:5] >>> Loading movements... (done).
+[16/1/2023 17:2:5] >>> Loading creaturescripts... (done).
+[16/1/2023 17:2:5] >>> Loading globalscripts... (done).
+[16/1/2023 17:2:5] >> Loading monsters
+[16/1/2023 17:2:10] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[16/1/2023 17:2:10] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[16/1/2023 17:2:12] >> Loading raids
+[16/1/2023 17:2:12] >> Loading map and spawns...
+[16/1/2023 17:2:12] > FATAL: OTBM Loader - Could not open the file data/world/cartel.otbm.
+[16/1/2023 17:8:9] >> Loading Password encryption:
+[16/1/2023 17:8:9] >>> Using (SHA1) encryption ... (done).
+[16/1/2023 17:8:9] >> Loading RSA key
+[16/1/2023 17:8:9] >> Starting SQL connection
+[16/1/2023 17:8:9] >> Running Database Manager
+[16/1/2023 17:8:10] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[16/1/2023 17:8:10] > No tables were optimized.
+[16/1/2023 17:8:10] >> Checking for duplicated items
+[16/1/2023 17:8:10] >> Loading items (OTB)
+[16/1/2023 17:8:10] >> Loading items (XML)
+[16/1/2023 17:8:10] >> Loading groups
+[16/1/2023 17:8:10] >> Loading outfits
+[16/1/2023 17:8:10] >> Loading quests
+[16/1/2023 17:8:10] >> Loading raids
+[16/1/2023 17:8:10] >> Loading vocations
+[16/1/2023 17:8:10] >> Loading chat channels
+[16/1/2023 17:8:10] >> Loading experience stages
+[16/1/2023 17:8:10] >> Loading mods:
+[16/1/2023 17:8:10] >>> Loading custommonsters.xml ... (done).
+[16/1/2023 17:8:10] >>> (0) mods were disabled.
+[16/1/2023 17:8:10] >> Loading script systems:
+[16/1/2023 17:8:10] >>> Loading global... (done).
+[16/1/2023 17:8:10] >>> Loading weapons... (done).
+[16/1/2023 17:8:10] >>> Preparing weapons... (done).
+[16/1/2023 17:8:10] >>> Loading spells... (done).
+[16/1/2023 17:8:10] >>> Loading actions... (done).
+[16/1/2023 17:8:11] >>> Loading talkactions... (done).
+[16/1/2023 17:8:11] >>> Loading movements... (done).
+[16/1/2023 17:8:11] >>> Loading creaturescripts... (done).
+[16/1/2023 17:8:11] >>> Loading globalscripts... (done).
+[16/1/2023 17:8:11] >> Loading monsters
+[16/1/2023 17:8:12] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[16/1/2023 17:8:12] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[16/1/2023 17:8:12] >> Loading raids
+[16/1/2023 17:8:12] >> Loading map and spawns...
+[16/1/2023 17:8:15] >>> Map size: 52997x53208.
+[16/1/2023 17:9:53] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "Blood-WAR SERVER!"
+[16/1/2023 17:9:53] >>> Loading time: 100.288 seconds.
+[16/1/2023 17:9:56] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:0] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:0] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:0] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Charles.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Varkhal.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Varkhal.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:3] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:4] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:5] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[16/1/2023 17:10:6] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[16/1/2023 17:10:6] [Warning - Npc::createNpc] Cannot find npc with name: Loui.
+[16/1/2023 17:10:7] [Warning - Npc::createNpc] Cannot find npc with name: A Ghostly Guardian.
+[16/1/2023 17:10:7] >>> Parsing time: 14.353 seconds.
+[16/1/2023 17:10:11] >>> Synchronization time: 3.565 seconds.
+[16/1/2023 17:10:11] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32334 / 32199 / 006 )
+[16/1/2023 17:10:11] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32340 / 32197 / 006 )
+[16/1/2023 17:10:11] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32340 / 32198 / 006 )
+[16/1/2023 17:10:11] >>> Unserialization time: 0.166 seconds.
+[16/1/2023 17:10:11] >> Checking world type... Open PvP
+[16/1/2023 17:10:11] >> Starting to dominate the world... done.
+[16/1/2023 17:10:11] >> Initializing game state and binding services:
+
+[16/1/2023 17:10:12] >> Everything smells good, server is starting up...
+[16/1/2023 17:10:13] >> Extreme-War server Online!
+
+[23/1/2023 15:44:56] >> Loading Password encryption:
+[23/1/2023 15:44:56] >>> Using (SHA1) encryption ... (done).
+[23/1/2023 15:44:56] >> Loading RSA key
+[23/1/2023 15:44:56] >> Starting SQL connection
+[23/1/2023 15:44:56] >> Running Database Manager
+[23/1/2023 15:44:56] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[23/1/2023 15:44:57] > Optimizing table: player_items... [success]
+[23/1/2023 15:44:57] > Optimizing table: player_storage... [success]
+[23/1/2023 15:44:57] > Optimizing table: z_ots_comunication... [success]
+[23/1/2023 15:44:57] >> Checking for duplicated items
+[23/1/2023 15:44:57] >> Loading items (OTB)
+[23/1/2023 15:44:57] >> Loading items (XML)
+[23/1/2023 15:44:57] >> Loading groups
+[23/1/2023 15:44:57] >> Loading outfits
+[23/1/2023 15:44:58] >> Loading quests
+[23/1/2023 15:44:58] >> Loading raids
+[23/1/2023 15:44:58] >> Loading vocations
+[23/1/2023 15:44:58] >> Loading chat channels
+[23/1/2023 15:44:58] >> Loading experience stages
+[23/1/2023 15:44:58] >> Loading mods:
+[23/1/2023 15:44:58] >>> Loading custommonsters.xml ... (done).
+[23/1/2023 15:44:58] >>> (0) mods were disabled.
+[23/1/2023 15:44:58] >> Loading script systems:
+[23/1/2023 15:44:58] >>> Loading global... (done).
+[23/1/2023 15:44:58] >>> Loading weapons... (done).
+[23/1/2023 15:44:58] >>> Preparing weapons... (done).
+[23/1/2023 15:44:59] >>> Loading spells... (done).
+[23/1/2023 16:9:29] >> Loading Password encryption:
+[23/1/2023 16:9:29] >>> Using (SHA1) encryption ... (done).
+[23/1/2023 16:9:29] >> Loading RSA key
+[23/1/2023 16:9:29] >> Starting SQL connection
+[23/1/2023 16:9:29] >> Running Database Manager
+[23/1/2023 16:9:29] > Updating database to version 44... (House Protection System)
+[23/1/2023 16:9:29] > Database has been updated to version: 44.
+[23/1/2023 16:9:29] > WARNING: You cannot change the encryption to SHA1, change it back in config.lua.
+[23/1/2023 16:9:29] > Optimizing table: tile_store... [success]
+[23/1/2023 16:9:29] >> Checking for duplicated items
+[23/1/2023 16:9:29] >> Loading items (OTB)
+[23/1/2023 16:9:29] >> Loading items (XML)
+[23/1/2023 16:9:29] >> Loading groups
+[23/1/2023 16:9:29] >> Loading outfits
+[23/1/2023 16:9:29] >> Loading quests
+[23/1/2023 16:9:29] >> Loading raids
+[23/1/2023 16:9:29] >> Loading vocations
+[23/1/2023 16:9:29] >> Loading chat channels
+[23/1/2023 16:9:29] >> Loading experience stages
+[23/1/2023 16:9:29] >> Loading mods:
+[23/1/2023 16:9:29] >>> Loading custommonsters.xml ... (done).
+[23/1/2023 16:9:29] >>> (0) mods were disabled.
+[23/1/2023 16:9:29] >> Loading script systems:
+[23/1/2023 16:9:29] >>> Loading global... (done).
+[23/1/2023 16:9:29] >>> Loading weapons... (done).
+[23/1/2023 16:9:29] >>> Preparing weapons... (done).
+[23/1/2023 16:9:30] >>> Loading spells... (done).
+[23/1/2023 16:9:30] >>> Loading actions... (done).
+[23/1/2023 16:9:31] >>> Loading talkactions... (done).
+[23/1/2023 16:9:32] >>> Loading movements... (done).
+[23/1/2023 16:9:32] >>> Loading creaturescripts... (done).
+[23/1/2023 16:9:32] >>> Loading globalscripts... (done).
+[23/1/2023 16:9:32] >> Loading monsters
+[23/1/2023 16:9:37] [Warning - Monsters::loadMonster] Unknown attribute type - targetstrategies (data/monster/Bosses/Flimsy Lost Soul.xml).
+[23/1/2023 16:9:37] [Warning - Monsters::deserializeSpell] Flimsy Lost Soul - Unknown shootEffect: envenomedarrow
+[23/1/2023 16:9:40] >> Loading raids
+[23/1/2023 16:9:40] >> Loading map and spawns...
+[23/1/2023 16:9:43] >>> Map size: 52997x53208.
+[23/1/2023 16:10:8] >>> Map descriptions: - "Saved with Remere's Map Editor 2.2" - "Blood-WAR SERVER!"
+[23/1/2023 16:10:8] >>> Loading time: 28.044 seconds.
+[23/1/2023 16:10:9] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:10] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:10] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:10] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Charles.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Varkhal.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Varkhal.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:11] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:13] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:13] [Warning - Npc::createNpc] Cannot find npc with name: Chilanik.
+[23/1/2023 16:10:14] [Warning - Npc::createNpc] Cannot find npc with name: Castle Travel.
+[23/1/2023 16:10:14] [Warning - Npc::createNpc] Cannot find npc with name: Loui.
+[23/1/2023 16:10:14] [Warning - Npc::createNpc] Cannot find npc with name: A Ghostly Guardian.
+[23/1/2023 16:10:15] >>> Parsing time: 6.806 seconds.
+[23/1/2023 16:10:17] >>> Synchronization time: 2.144 seconds.
+[23/1/2023 16:10:17] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32334 / 32199 / 006 )
+[23/1/2023 16:10:17] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32340 / 32197 / 006 )
+[23/1/2023 16:10:17] [Error - IOMapSerialize::loadMapBinary] Unserialization of invalid tile at position ( 32340 / 32198 / 006 )
+[23/1/2023 16:10:17] >>> Unserialization time: 0.134 seconds.
+[23/1/2023 16:10:17] >> Checking world type... Open PvP
+[23/1/2023 16:10:17] >> Starting to dominate the world... done.
+[23/1/2023 16:10:17] >> Initializing game state and binding services:
+
+[23/1/2023 16:10:18] >> Everything smells good, server is starting up...
+[23/1/2023 16:10:19] >> Extreme-War server Online!
+

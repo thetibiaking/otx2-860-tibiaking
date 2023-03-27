@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Grizzly Adams" script="Grizzly Adams.lua" access="3" walkinterval="2000" lookdir="2">
+        <health now="200" max="200"/>
+<look type="144" head="97" body="97" legs="94" feet="97" addons="3"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="iniciar sua Task digite {task} para visualizar o andamento da task ou para finalizar a quest voce digita {report}!"/>
+		<parameter key="shop_buyable" value="axe,2386,20;" />
+		<parameter key="shop_sellable" value="Antlers,11214,50;Bloody Pincer,10550,100;Crab Pincers,11189,35;Cyclops Toe,10574,55;Frosty Ear of a Troll,10565,30;Hydra Head,11199,600;Lancer Beetle Shell,11372,80;Disgusting Trophy,11338,3000;Sabretooth,11228,400;Sandcrawler Shell,11373,20;Scarab Pincers,10548,280;Terramite Legs,11371,60;Terramite Shell,11369,170; Terrorbird Beak,11190,95;Lizard Trophy,11336,8000;" />
+	</parameters>
+</npc>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Anonymous Event" script="data/npc/scripts/cartelcoins.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="332" head="0" body="0" legs="0" feet="0"  addons="0"/>
+    <parameters>
+        <parameter key="message_greet" value="Olá |PLAYERNAME|. Eu troco Blood Event Coins por items, para saber a lisa de items fale {trade}."/>
+        <parameter key="message_farewell" value="Tchau e volte sempre."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="Eu sou viajante e tenho muitos items para troca." />
+    </parameters>
+</npc>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blood Cassino" script="data/npc/scripts/cassino_dice2.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="132" head="38" body="87" legs="46" feet="46" addons="3"/>
+</npc> 

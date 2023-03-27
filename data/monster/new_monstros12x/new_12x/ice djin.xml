@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Djin" nameDescription="a ice djin" race="blood" experience="2450" speed="280" manacost="0">
+	<health now="1550" max="1550"/>
+	<look type="104" corpse="6033"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50"/>
+		<attack name="lifedrain" interval="2000" chance="13" range="7" min="-100" max="-220">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="12" radius="3" target="0" min="-250" max="-400">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+		<attack name="energycondition" interval="2000" chance="8" radius="3" target="1" min="-500" max="-500">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="9" range="7" target="1" speedchange="-650">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="7" range="7" target="1" min="-100" max="-250">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="20">
+		<defense name="healing" interval="2000" chance="12" min="250" max="330">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="-10"/>
+		<element earthPercent="10"/>
+		<element energyPercent="80"/>
+		<element holyPercent="20"/>
+		<element icePercent="10"/>
+		<element deathPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Nao me venha com essa de pedidos"/>
+		<voice sentence="Vem tranquilo"/>
+	</voices>
+	<loot>
+    <item id="2146" chance="6700" /><!-- small sapphire -->
+    <item id="2183" chance="1650" /><!-- hailstorm rod -->
+    <item id="7589" chance="8325" /><!-- strong mana potion -->
+    <item id="1987" chance="100000"><!-- bag -->
+        <inside>
+            <item id="2442" chance="5100" /><!-- heavy machete -->
+            <item id="5912" chance="2800" /><!-- blue piece of cloth -->
+            <item id="7900" chance="1200" /><!-- magma monocle -->
+            <item id="2374" chance="725" /><!-- wooden flute -->
+            <item id="12403" chance="1200" /><!-- noble turban -->
+            <item id="2158" chance="725" /><!-- blue gem -->
+        </inside>
+    </item>
+</loot>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</monster>

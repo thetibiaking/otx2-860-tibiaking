@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<monster name="Demoniac Fury" nameDescription="a Demoniac Fury" race="blood" experience="13000" speed="460" manacost="0">
+<health now="12000" max="12000"/>
+<look type="359" corpse="6081"/>
+<targetchange interval="5000" chance="25"/>
+<strategy attack="100" defense="0"/>
+<flags>
+<flag summonable="0"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="0"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="1"/>
+<flag targetdistance="1"/>
+<flag staticattack="95"/>
+<flag runonhealth="0"/>
+</flags>
+<attacks>
+<attack name="melee" interval="2000" skill="50" attack="213"/>
+<attack name="physical" interval="2000" chance="12" range="7" target="1" min="-50" max="-200">
+<attribute key="areaEffect" value="poff"/>
+</attack>
+<attack name="death strike" interval="2000" chance="13" min="-0" max="-300">
+<attribute key="shootEffect" value="death"/>
+</attack>
+<!-- <attack name="energy bomb" interval="2000" chance="50"> -->
+<!-- <attribute key="areaEffect" value="energy"/> -->
+<!-- </attack> -->
+<attack name="lifedrain" interval="1000" chance="11" radius="4" target="0" min="-0" max="-100">
+<attribute key="areaEffect" value="rednote"/>
+</attack>
+</attacks>
+<defenses armor="22" defense="35">
+<defense name="healing" interval="2000" chance="30" min="106" max="191">
+<attribute key="areaEffect" value="blueshimmer"/>
+</defense>
+</defenses>
+<elements>
+<element firePercent="0"/>
+<element icePercent="0"/>
+<element holyPercent="0"/>
+<element deathPercent="-15"/>
+<element energyPercent="100"/>
+<element earthPercent="0"/>
+<element physicalPercent="0"/>
+</elements>
+<immunities>
+<immunity paralyze="1"/>
+<immunity invisible="1"/>
+</immunities>
+<voices interval="3000" chance="30">
+<voice sentence="How furious would YOU be after having been trapped for ages?"/>
+<voice sentence="My anger is unmatched!"/>
+<voice sentence="Feel my wrath! Feel my rage!"/>
+<voice sentence="In ira et studio!"/>
+</voices>
+<loot>
+<item id="2148" countmax="40" chance="100000"/><!-- gold coin -->
+<item id="7885" chance="700"/><!-- terra legs -->
+<item id="1987" chance="100000"><!-- bag -->
+<inside>
+<item id="2796" countmax="1" chance="22500"/><!-- green mushroom -->
+<item id="2195" chance="666"/><!-- boots of haste -->
+<item id="7898" chance="750"/><!-- lightning robe -->
+</inside>
+</item>
+</loot>
+</monster>

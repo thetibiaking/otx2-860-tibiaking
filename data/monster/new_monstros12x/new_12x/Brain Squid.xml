@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Brain Squid" nameDescription="a brain squid" race="undead" experience="21000" speed="415">
+	<health now="18000" max="18000"/>
+	<look type="224" head="97" body="18" legs="61" feet="85" corpse="6079"/>
+	<targetchange interval="5000" chance="8"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-100" max="-200"/>
+		<attack name="energy" interval="2000" chance="15" range="7" min="-200" max="-470">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="13" radius="3" min="-200" max="-505">
+			<attribute key="areaEffect" value="energyarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="82" defense="40"/>
+	<elements>
+		<element icePercent="50"/>
+		<element earthPercent="30"/>
+		<element holyPercent="70"/>
+		<element firePercent="50"/>
+		<element energyPercent="90"/>
+		<element deathPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item name="Platinum Coin" countmax="12" chance="100000"/>
+		<item name="Small Ruby" countmax="4" chance="1200"/>
+		<item name="Violet Gem" countmax="4" chance="1200"/>
+		<item name="Wand of Defiance" chance="800"/>
+		<item name="Lightning Headband" chance="950"/>
+		<item name="Lightning Pendant" chance="850"/>
+		<item name="Might Ring" chance="1300"/>
+	</loot>
+</monster>

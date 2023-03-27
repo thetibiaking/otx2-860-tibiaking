@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Djinn Shop VIp" script="data/npc/scripts/default.lua" walkinterval="0" speed="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="80" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+                <parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy helmets, armors, legs, boots, weapons and shields, say {trade}."/>
+                <parameter key="shop_buyable" value="spirit cloak,8870,20000"/>
+		<parameter key="shop_sellable" value="dragon hammer,2434,2000;giant sword,2393,9000;knight axe,2430,2000;poison dagger,2411,50;scimitar,2419,150;serpent sword,2409,560;skull staff,2436,6000;dark armor,2489,600;knight armor,2476,6000;dark helmet,2490,250;mystic turban,2663,300;strange helmet,2479,500;warrior helmet,2475,5000;knight legs,2477,6000;ancient shield,2532,900;black shield,2529,800;tower shield,2528,9000;vampire shield,2534,15000;dragon lance,2414,10000;fire axe,2432,9000;fire sword,2392,5000;war hammer,2391,1000;spike sword,2383,500;ice rapier,2396,1000;broadsword,2413,100;obsidian lance,2425,500;crown armor,2487,13000;blue robe,2656,9000;noble armor,2486,1000;royal helmet,2498,45000;crusader helmet,2497,7000;crown helmet,2491,3000;crown legs,2488,13000;boots of haste,2195,40000;phoenix shield,2539,16000;crown shield,2519,9000;dragon shield,2516,4000;guardian shield,2515,2000;beholder shield,2518,1200"/>
+	</parameters>
+</npc>

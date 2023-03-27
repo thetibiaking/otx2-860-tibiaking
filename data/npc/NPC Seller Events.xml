@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="NPC Seller Events" script="data/npc/scripts/NPC Seller Events.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="229" corpse="6078"/>
+<parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I have these offers, {vip minotaur backpack}, {vip moon backpack}, {vip demon backpack}, {stone skin amulet}, {might ring}, {ferumbras hat}, {dragon claw}, {nose ring}, {soul stone}, {brutus bloodbeards hat}, {deadeye devious eye patch}, {ron the rippers sabre}, {lethal lissys shirt}, {ferumbras doll}, {epaminondas doll}, {tibia doll}, {wooden doll}, {bear doll}, {nightmare doll}, {panda teddy}, {vampire doll}, {santa doll}, {snowman doll} and {Mistery Box}. "/>
+</parameters>
+</npc>

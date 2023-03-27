@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blood Events" script="data/npc/scripts/The Crone.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="325" head="100" body="104" legs="100" feet="94" addons="3" corpse="6019"/>
+<parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I have these offers, {vip minotaur backpack}, {vip moon backpack}, {vip demon backpack}, {stone skin amulet}, {might ring}, {ferumbras hat}, {dragon claw}, {nose ring}, {soul stone}, {brutus bloodbeards hat}, {deadeye devious eye patch}, {ron the rippers sabre}, {lethal lissys shirt}, {ferumbras doll}, {epaminondas doll}, {tibia doll}, {wooden doll}, {bear doll}, {nightmare doll}, {panda teddy}, {vampire doll}, {santa doll}, {snowman doll} and {Mistery Box}. "/>
+</parameters>
+</npc>

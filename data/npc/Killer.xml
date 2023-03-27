@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Killer" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100" />
+    <look type="139" head="98" body="95" legs="115" feet="114" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Sorry, I'm currently disabled. I will be back soon" />
+    </parameters>
+</npc>

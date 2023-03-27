@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+		<raid name="Morgaroth" file="Morgaroth.xml" interval2="30" margin="1000" enabled="no"/> 
+    </raids>

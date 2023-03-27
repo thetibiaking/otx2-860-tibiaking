@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+       
+       <npc name="Viajante PH" script="data/npc/scripts/default.lua" access="3" floorchange="0" walkinterval="2000">
+       	<health now="1000" max="1000"/>
+       	<look type="131" head="113" body="112" legs="89" feet="95" corpse="1313"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
+        <parameter key="travel_destinations" value="port hope,32628,32772,7,0;"/>
+    </parameters>
+</npc>

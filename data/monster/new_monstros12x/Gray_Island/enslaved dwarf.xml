@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Enslaved Dwarf" nameDescription="an enslaved dwarf" race="fire" experience="14500" speed="275" manacost="0">
+  <health now="21000" max="21000"/>
+  <look type="71" head="20" body="30" legs="40" feet="50" corpse="6014"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+	<attack name="melee" interval="1500" min="-500" max="-1200"/>
+            <attack name="poison" interval="2000" chance="35" range="50000" radius="3" target="0" min="-1400" max="-2000">
+        <attribute key="areaEffect" value="poison"/>
+    </attack>	
+  </attacks>
+  <defenses armor="55" defense="55">    
+  </defenses>
+	<elements>			
+	</elements>
+  <immunities>
+    <immunity earth="1"/>  
+    <immunity fire="1"/>    
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities> 
+  <voices interval="5000" chance="10">
+    <voice sentence="Bark!" yell="1"/>
+  </voices>
+  <loot>
+ 	<item id="2152" countmax="8" chance="25000"/>
+    <item id="2157" countmax="3" chance1="800" chancemax="0"/> -- barra de ouro free 	
+</loot>
+</monster>

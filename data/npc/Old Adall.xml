@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Old Adall" script="data/npc/scripts/Old Adall.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="130" head="95" body="26" legs="115" feet="76" addons="0"/>
+    <parameters>
+      <parameter key="module_travel" value="1"/>
+	<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
+      <parameter key="travel_destinations" value="banuta,32826,32632,7,0; darama,32987,32729,7,0;"/>
+    </parameters>
+</npc>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lendary Meriana" nameDescription="a lendary meriana" race="blood" experience="1800" speed="215" manacost="0">
+	<health now="2500" max="2500"/>
+	<look type="155" head="0" body="96" legs="115" feet="57" addons="3" corpse="6081"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" skill="60" attack="55"/>
+		<attack name="physical" interval="1700" chance="50" range="7" min="-150" max="-350">
+			<attribute key="shootEffect" value="arrow"/>
+		</attack>
+	</attacks>
+	<defenses armor="12" defense="18"/>
+	<elements>
+		<element holyPercent="10"/>
+		<element physicalPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="I'm the real Queen, haha!"/>
+	</voices>
+	<loot>
+		<item id="2545" countmax="2" chance="12500"/><!-- poison arrow -->
+		<item id="2544" countmax="24" chance="9000"/><!-- arrow -->
+		<item id="2675" countmax="2" chance="22500"/><!-- orange -->
+		<item id="2690" countmax="2" chance="7975"/><!-- roll -->
+		<item id="2465" chance="7000"/><!-- brass armor -->
+		<item id="2461" chance="12500"/><!-- leather helmet -->
+		<item id="2649" chance="11750"/><!-- leather legs -->
+		<item id="2456" chance="30000"/><!-- bow -->
+		<item id="2460" chance="8750"/><!-- brass helmet -->
+		<item id="2546" countmax="3" chance="2000"/><!-- burst arrow -->
+		<item id="2147" chance="100"/><!-- small ruby -->
+	</loot>
+</monster>

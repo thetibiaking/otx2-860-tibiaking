@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="King Illusion" nameDescription="king" race="blood" experience="0" speed="800" manacost="0">
+  <health now="800000" max="800000"/>
+	<look type="332" head="21" body="87" legs="107" feet="95" addons="0"/>
+  <targetchange interval="5000" chance="20"/>
+  <strategy attack="70" defense="15"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="5000"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-800" max="-1850"/>
+    <attack name="death" interval="1000" chance="16" radius="9" target="0" min="-1000" max="-1900">
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <attack name="speed" interval="1000" chance="18" radius="10" target="0" speedchange="-850" duration="60000">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="strength" interval="1000" chance="18" radius="8" target="0" min="-900" max="-1950">
+      <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+    <attack name="fire" interval="1000" chance="18" range="7" radius="7" target="1" min="-800" max="-1500">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="manadrain" interval="1000" chance="18" radius="10" target="0" min="-1000" max="-1200">
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+    <attack name="energy" interval="1000" chance="18" length="8" spread="0" min="-700" max="-1000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="poisoncondition" interval="1000" chance="18" length="0" spread="0" min="-1000" max="-1300">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+    <attack name="lifedrain" interval="1000" chance="18" radius="14" target="0" min="-800" max="-1600">
+      <attribute key="areaEffect" value="greenshimmer"/>
+    </attack>
+	<attack name="TeleportPlayerMithrandir" interval="5000" chance="30" />
+	<attack name="TeleportBossKing" interval="5000" chance="30" />
+  </attacks>
+  <defenses armor="188" defense="145">
+    <defense name="healing" interval="1000" chance="20" min="1000" max="3000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="2000" chance="30" speedchange="1000" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+		<element earthPercent="70"/>
+		<element energyPercent="20"/>
+		<element holyPercent="-25"/>
+	</elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="ACHAM MESMO QUE IRÃO ME DERROTAR ?" yell="1"/>
+    <voice sentence="MORTE A TODOS VOCÊS!" yell="1"/>
+    <voice sentence="NÃO PASSAM DE VERMES!" yell="1"/>
+    <voice sentence="FAREI UM BELO CAIXÃO BRANCO PRA VOCÊS!" yell="1"/>
+  </voices>
+</monster>

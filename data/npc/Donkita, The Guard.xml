@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Donkita, the guard" walkinterval="0" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="268" head="0" body="57" legs="78" feet="78" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Guardiao da Dungeon!"/>
+        <parameter key="message_farewell" value="Guardiao da Dungeon!"/>
+        <parameter key="module_keywords" value="0" />
+    </parameters>
+</npc>

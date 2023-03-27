@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dread Intruder" nameDescription="a dread intruder" race="energy" experience="3000" speed="165">
+	<health now="4500" max="4500"/>
+	<look type="293" corpse="1495"/>
+	<targetchange interval="2000" chance="25"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-500"/>
+		<attack name="energycondition" interval="2000" radius="5" chance="20" min="-400" max="-600">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="death" interval="2000" target="1" radius="4" chance="25" range="4" min="-250" max="-400">
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>
+		<attack name="dread intruder wave" interval="2000" chance="25" min="-350" max="-550"/>
+	</attacks>
+	<defenses armor="50" defense="50">
+		<defense name="healing" interval="2000" chance="5" min="80" max="250">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-5"/>
+		<element icePercent="5"/>
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity death="1"/>
+		<immunity fire="1"/>
+		<immunity earth="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="4000" chance="15">
+		<voice sentence="Whirr!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2148" countmax="89" chance="100000"/><!-- gold coin -->
+		<item id="2152" countmax="8" chance="100000"/><!-- platinum coin -->
+		<item id="8472" chance="14000"/><!-- great spirit potion -->
+		<item id="8473" chance="13500"/><!-- ultimate health potion -->
+		<item id="7590" chance="12700"/><!-- great mana potion -->
+		<item id="2147" countmax="2" chance="5400"/><!-- small ruby -->
+		<item id="2146" countmax="2" chance="5400"/><!-- small sapphire -->
+		<item id="2150" countmax="2" chance="5000"/><!-- small amethyst -->
+		<item id="2153" chance="1000"/><!-- violet gem -->
+	</loot>
+</monster>

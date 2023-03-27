@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Harava" script="data/npc/scripts/Captain Harava.lua" attackable="1" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="146" head="0" body="102" legs="115" feet="120" addons="3" />
+<voices>
+<voice text="Passages to Carlin, Ab'Dendriel, Edron, Venore, Port Hope, Liberty Bay, Yalahar, Thais, Svargrond, {Roshamuul}, {Oramond}." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I can {travel} you to another places."/>
+	</parameters>
+</npc>

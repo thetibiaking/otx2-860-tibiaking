@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Esrik" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="71" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Good bye."/>
+		<parameter key="message_walkaway" value="Farewell then.." />
+		
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="zaogun's shoulderplates,11331,150;wailing widow necklace,11329,3000;high guard shoulderplates,11333,130;bone shoulderplates,11321,150;twin hooks,11309,500;drakinata,11305,10000;drachaku,11308,10000;zaoan halberd,11323,500;Spiked Iron Ball,11325,100;broken halberds,11335,100;Cursed Shoulder Spikes,11327,320;Sais,11306,500;legionnaires flags,11334,500;guardian boots,11240,16500;zaoan sword,11307,30000;zaoan shoes,11303,5000;zaoan armor,11301,14000;zaoan helmet,11302,45000;zaoan legs,11304,14000"/>
+		<parameter key="shop_buyable" value=""/>
+	</parameters>
+</npc>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Reality Reaver" nameDescription="a reality reaver" race="energy" experience="3100" speed="170">
+	<health now="3900" max="3900"/>
+	<look type="273" head="85" body="107" legs="128" feet="131" addons="3" corpse="6068"/>
+	<targetchange interval="2000" chance="25"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-500"/>
+		<attack name="energy" interval="2000" target="1" radius="5" chance="20" range="5" min="-180" max="-400">
+			<attribute key="areaEffect" value="purpleenergy"/>
+			<attribute key="shootEffect" value="energyball"/>
+		</attack>
+		<attack name="reality reaver wave" interval="2000" chance="20" min="-200" max="-500"/>
+		<attack name="energycondition" interval="2000" radius="5" chance="20" min="-400" max="-800">
+			<attribute key="areaEffect" value="stun"/>
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="50">
+		<defense name="invisible" interval="2000" chance="15" duration="8000">
+			<attribute key="areaEffect" value="poff"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="10" speedchange="380" duration="8000">
+			<attribute key="areaEffect" value="blackspark"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="-20"/>
+		<element physicalPercent="15"/>
+		<element icePercent="20"/>
+		<element firePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity energy="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="4000" chance="15">
+		<voice sentence="Ssshhh!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
+		<item id="2152" countmax="6" chance="100000"/><!-- platinum coin -->
+		<item id="8472" countmax="2" chance="11400"/><!-- great spirit potion -->
+		<item id="7590" countmax="2" chance="10300"/><!-- great mana potion -->
+		<item id="7591" countmax="2" chance="9700"/><!-- great health potion -->
+		<item id="2156" chance="2600"/><!-- red gem -->
+		<item id="7901" chance="520"/><!-- lightning headband -->
+		<item id="2153" chance="370"/><!-- violet gem -->
+	</loot>
+</monster>

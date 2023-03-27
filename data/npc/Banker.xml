@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bankerman" script="bank.lua" walkinterval="2000" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="289" head="114" body="57" legs="57" feet="114" addons="3"/>
+</npc>

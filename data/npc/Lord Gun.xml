@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lord Gun" script="Lord Gun.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="328" head="79" body="0" legs="19" feet="66" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|, posso lhe conceder acesso aos meus tapetes, mas antes quero que conheça minha cidade. Preparado para essa {missão} ?"/>
+        <parameter key="message_farewell" value="Até logo!"/>
+        <parameter key="module_keywords" value="1" />
+		<parameter key="module_shop" value="0"/>
+	</parameters>
+</npc>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mercenary" nameDescription="a mercenary" race="blood" experience="10000" speed="450" manacost="0">
+	<health now="400000" max="400000" />
+	<look type="152" head="114" body="114" legs="114" feet="114" addons="1" corpse="12894" />
+	<targetchange interval="4000" chance="40" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="1000" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="600" min="-280" max="-840" />
+		<attack name="lifedrain" interval="2000" chance="15" length="8" spread="0" min="-300" max="-800">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="falcon strike" interval="2000" chance="20" range="1" min="-450" max="-1100">
+		</attack>
+		<attack name="mercenary atkspeed" interval="5000" chance="25" range="1" min="-350" max="-980">
+		</attack>
+		<attack name="mercenary tp" interval="6000" chance="35" range="5" min="-600" max="-1400">
+		</attack>
+		<attack name="speed" interval="2000" chance="15" radius="1" target="1" speedchange="-750" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="50" defense="50">
+		<defense name="healing" interval="2000" chance="20" min="2000" max="4000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="520" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+		<defense name="invisible" interval="5000" chance="35" duration="2000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="20" />
+		<element deathPercent="15" />
+		<element firePercent="20" />
+		<element energyPercent="-10" />
+		<element earthPercent="-15" />
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="HAAAA!" />
+		<voice sentence="Atk Speed..."/>
+		<voice sentence="You die!" />
+	</voices>
+</monster>

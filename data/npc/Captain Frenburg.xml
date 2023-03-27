@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+       
+       <npc name="Captain Frenburg" script="data/npc/scripts/default.lua" access="3" floorchange="0" walkinterval="2000">
+       	<health now="1000" max="1000"/>
+       	<look type="129" head="116" body="114" legs="89" feet="95" corpse="1313"/>
+    <parameters>
+        <parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you don't know where to flow, say {travel}."/>
+        <parameter key="travel_destinations" value="thais,32311,32210,6,0;dragon lair,31820,31985,6,0;roshamuul,30514,20598,7,0;"/>
+    </parameters>
+</npc>

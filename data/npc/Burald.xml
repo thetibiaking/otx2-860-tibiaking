@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Burald" script="Burald.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="289" head="114" body="79" legs="113" feet="0" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Olá |PLAYERNAME|, está fazendo a {missão} do Lord Gun ?"/>
+        <parameter key="message_farewell" value="Até logo!"/>
+        <parameter key="module_keywords" value="1" />
+		<parameter key="module_shop" value="0"/>
+	</parameters>
+</npc>

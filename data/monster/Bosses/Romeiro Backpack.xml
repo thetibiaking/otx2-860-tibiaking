@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ranris" nameDescription="a ranris" race="undead" experience="7200" speed="0" manacost="0">
+	<health now="400000" max="400000"/>
+	<look typeex="12358" corpse="12358"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	 <script>
+		<event name="Ranris"/>
+	</script>
+	<attacks>
+		<attack name="melee" interval="2000" min="-500" max="-1500"/>
+		<attack name="fire" interval="3000" chance="35" range="7" radius="7" target="1" min="-700" max="-1900">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="death" interval="4000" chance="16" radius="9" target="0" min="-1000" max="-1900">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="50">
+		<defense name="healing" interval="10000" chance="25" min="5000" max="6000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="-8"/>
+		<element holyPercent="-20"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="15">
+		<summon name="Undead Dragon" interval="3000" chance="17" max="6"/>
+		<summon name="Ghastly Dragon" interval="3000" chance="15" max="6"/>
+		<summon name="Draken Elite" interval="3000" chance="13" max="3"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="MESMO FERIDO NÃO LHES DAREI CHANCE ALGUMA!" yell="1"/>
+	</voices>
+</monster>

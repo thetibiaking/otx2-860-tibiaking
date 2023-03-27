@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Naji" script="data/npc/scripts/bank.lua" walkinterval="1000" floorchange="0">
+<health now="100" max="100"/>
+<look type="129" head="57" body="113" legs="76" feet="113" addons="0"/>
+<voices>
+<voice text="It's a wise idea to store your money in your bank account." interval2="100" margin="1" yell="no"/>
+</voices>
+<parameters>
+<parameter key="message_greet" value="Welcome |PLAYERNAME|! Here, you can {deposit}, {withdraw} or {transfer} your money from your bank account. I can change your coins too."/>
+<parameter key="message_alreadyfocused" value="You are drunked ? I talk with you."/>
+<parameter key="message_farewell" value="Goodbye. I wanna see your money... oh you again."/>
+</parameters>
+</npc>

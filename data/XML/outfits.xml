@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<outfits>
+
+	<outfit id="1" premium="0">
+		<list gender="0" lookType="801" name="Citizen"/>
+		<list gender="1" lookType="794" name="Citizen"/>
+	</outfit>
+
+	<outfit id="2" premium="0">
+		<list gender="0" lookType="802" name="Hunter"/>
+		<list gender="1" lookType="795" name="Hunter"/>
+	</outfit>
+
+	<outfit id="3" premium="0"> 
+		<list gender="0" lookType="803" name="Mage"/>
+		<list gender="1" lookType="796" name="Mage"/>
+	</outfit>
+
+	<outfit id="4" premium="0">
+		<list gender="0" lookType="804" name="Knight"/>
+		<list gender="1" lookType="797" name="Knight"/>
+	</outfit>
+
+	<outfit id="5" premium="0">
+		<list gender="0" lookType="805" name="Noblewoman"/>
+		<list gender="1" lookType="798" name="Nobleman"/>
+	</outfit>
+
+	<outfit id="6" premium="0">
+		<list gender="0" lookType="806" name="Summoner"/>
+		<list gender="1" lookType="799" name="Summoner"/>
+	</outfit>
+
+	<outfit id="7" premium="0">
+		<list gender="0" lookType="807" name="Warrior"/>
+		<list gender="1" lookType="800" name="Warrior"/>
+	</outfit>
+
+	<outfit id="8" premium="0">
+		<list gender="0" lookType="812" name="Barbarian"/>
+		<list gender="1" lookType="808" name="Barbarian"/>
+	</outfit>
+
+	<outfit id="9" premium="0">
+		<list gender="0" lookType="813" name="Druid"/>
+		<list gender="1" lookType="809" name="Druid"/>
+	</outfit>
+
+	<outfit id="10" premium="0">
+		<list gender="0" lookType="814" name="Wizard"/>
+		<list gender="1" lookType="810" name="Wizard"/>
+	</outfit>
+
+	<outfit id="11" premium="0">
+		<list gender="0" lookType="815" name="Oriental"/>
+		<list gender="1" lookType="811" name="Oriental"/>
+	</outfit>
+
+	<outfit id="12" premium="0">
+		<list gender="0" lookType="820" name="Pirate"/>
+		<list gender="1" lookType="816" name="Pirate"/>
+	</outfit>
+
+	<outfit id="13" premium="0">
+		<list gender="0" lookType="821" name="Assassin"/>
+		<list gender="1" lookType="817" name="Assassin"/>
+	</outfit>
+
+	<outfit id="14" premium="0">
+		<list gender="0" lookType="822" name="Beggar"/>
+		<list gender="1" lookType="818" name="Beggar"/>
+	</outfit>
+
+	<outfit id="15" premium="0">
+		<list gender="0" lookType="823" name="Shaman"/>
+		<list gender="1" lookType="819" name="Shaman"/>
+	</outfit>
+
+	<outfit id="16" premium="0">
+		<list gender="0" lookType="825" name="Norsewoman"/>
+		<list gender="1" lookType="824" name="Norseman"/>
+	</outfit>
+
+	<outfit id="17" premium="0">
+		<list gender="0" lookType="827" name="Nightmare"/>
+		<list gender="1" lookType="826" name="Nightmare"/>
+	</outfit>
+
+	<outfit id="18" premium="0">
+		<list gender="0" lookType="828" name="Jester"/>
+		<list gender="1" lookType="829" name="Jester"/>
+	</outfit>
+
+	<outfit id="19" premium="0">
+		<list gender="0" lookType="831" name="Brotherhood"/>
+		<list gender="1" lookType="830" name="Brotherhood"/>
+	</outfit>
+
+	<outfit id="20" premium="0">
+		<list gender="0" lookType="863" name="Demonhunter"/>
+		<list gender="1" lookType="832" name="Demonhunter"/>
+	</outfit>
+
+	<outfit id="21" premium="1">
+		<list gender="0" lookType="833" name="Yalaharian"/>
+		<list gender="1" lookType="834" name="Yalaharian"/>
+	</outfit>
+
+	<outfit id="22" premium="0">
+		<list gender="0" lookType="860" name="Warmaster"/>
+		<list gender="1" lookType="859" name="Warmaster"/>
+	</outfit>
+
+     <outfit id="23" premium="0">
+		<list gender="0" lookType="861" name="Wayfarer"/>
+		<list gender="1" lookType="862" name="Wayfarer"/>
+	</outfit>
+
+	<outfit id="24" premium="0" quest="5455">
+		<list gender="0" lookType="442" name="Jersey"/>
+		<list gender="1" lookType="443" name="Jersey"/>
+	</outfit>
+
+	<outfit id="25" premium="0" quest="5454">
+		<list gender="0" lookType="901" name="Afflicted"/>
+		<list gender="1" lookType="900" name="Afflicted"/>
+	</outfit>
+
+	<outfit id="26" premium="0" quest="5454">
+		<list gender="0" lookType="902" name="Conjurer"/>
+		<list gender="1" lookType="903" name="Conjurer"/>
+	</outfit>
+
+	<outfit id="27" premium="0" quest="5454">
+		<list gender="0" lookType="904" name="Entrepreneur"/>
+		<list gender="1" lookType="905" name="Entrepreneur"/>
+	</outfit>
+
+	<outfit id="28" premium="0" quest="5454">
+		<list gender="0" lookType="907" name="Crystal Warlord"/>
+		<list gender="1" lookType="906" name="Crystal Warlord"/>
+	</outfit>
+
+	<outfit id="29" premium="0" quest="5454">
+		<list gender="0" lookType="908" name="Deepling"/>
+		<list gender="1" lookType="909" name="Deepling"/>
+	</outfit>
+
+	<outfit id="30" premium="0" quest="5454">
+		<list gender="0" lookType="911" name="Demon"/>
+		<list gender="1" lookType="910" name="Demon"/>
+	</outfit>
+
+	<outfit id="31" premium="0" quest="5454">
+		<list gender="0" lookType="912" name="Dream Warden"/>
+		<list gender="1" lookType="913" name="Dream Warden"/>
+	</outfit>
+
+	<outfit id="32" premium="0" quest="5454">
+		<list gender="0" lookType="915" name="Insectoid"/>
+		<list gender="1" lookType="914" name="Insectoid"/>
+	</outfit>
+
+	<outfit id="33" premium="0" quest="5454">
+		<list gender="0" lookType="916" name="Soil Guardian"/>
+		<list gender="1" lookType="917" name="Soil Guardian"/>
+	</outfit>
+
+	<outfit id="34" premium="0" quest="5454">
+		<list gender="0" lookType="919" name="Philosopher"/>
+		<list gender="1" lookType="918" name="Philosopher"/>
+	</outfit>
+
+	<outfit id="35" premium="0" quest="5454">
+		<list gender="0" lookType="920" name="Dragon Slayer"/>
+		<list gender="1" lookType="921" name="Dragon Slayer"/>
+	</outfit>
+
+	<outfit id="36" premium="0" quest="5454">
+		<list gender="0" lookType="923" name="Golden Outfit"/>
+		<list gender="1" lookType="922" name="Golden Outfit"/>
+	</outfit>
+
+
+    <outfit id="37" premium="0" quest="5454">
+		<list gender="0" lookType="2701" name="Elementalist"/>
+		<list gender="1" lookType="2700" name="Elementalist"/>
+	</outfit>
+
+	<outfit id="38" premium="0" quest="5454">
+		<list gender="0" lookType="2703" name="Glooth Engineer"/>
+		<list gender="1" lookType="2702" name="Glooth Engineer"/>
+	</outfit>
+
+	<outfit id="39" premium="0" quest="5454">
+		<list gender="0" lookType="2704" name="Champion"/>
+		<list gender="1" lookType="2705" name="Champion"/>
+	</outfit>
+
+	<outfit id="40" premium="0" quest="5454">
+		<list gender="0" lookType="2706" name="Beastmaster"/>
+		<list gender="1" lookType="2707" name="Beastmaster"/>
+	</outfit>
+
+	<outfit id="41" premium="0" quest="5454">
+		<list gender="0" lookType="2708" name="Death Herald"/>
+		<list gender="1" lookType="2709" name="Death Herald"/>
+	</outfit>
+
+	<outfit id="42" premium="0" quest="5454">
+		<list gender="0" lookType="2711" name="Cave Explorer"/>
+		<list gender="1" lookType="2710" name="Cave Explorer"/>
+	</outfit>
+
+	<outfit id="43" premium="0" quest="5454">
+		<list gender="0" lookType="2712" name="Ranger"/>
+		<list gender="1" lookType="2713" name="Ranger"/>
+	</outfit>
+
+	<outfit id="44" premium="0" quest="5454">
+		<list gender="0" lookType="2714" name="Puppeteer"/>
+		<list gender="1" lookType="2715" name="Puppeteer"/>
+	</outfit>
+
+	<outfit id="45" premium="0" quest="5454">
+		<list gender="0" lookType="2716" name="Spirit Caller"/>
+		<list gender="1" lookType="2717" name="Spirit Caller"/>
+	</outfit>
+
+	<outfit id="46" premium="0" quest="5454">
+		<list gender="0" lookType="2718" name="Seaweaver"/>
+		<list gender="1" lookType="2719" name="Seaweaver"/>
+	</outfit>
+
+	<outfit id="47" premium="0" quest="5454">
+		<list gender="0" lookType="2720" name="Recruiter"/>
+		<list gender="1" lookType="2721" name="Recruiter"/>
+	</outfit>
+
+	<outfit id="48" premium="0" quest="5454">
+		<list gender="0" lookType="2722" name="Sea Dog"/>
+		<list gender="1" lookType="2723" name="Sea Dog"/>
+	</outfit>
+
+	<outfit id="49" premium="0" quest="5454">
+		<list gender="0" lookType="2724" name="Royal Pumpkin"/>
+		<list gender="1" lookType="2725" name="Royal Pumpkin"/>
+	</outfit>
+
+	<outfit id="50" premium="0" quest="5454">
+		<list gender="0" lookType="2726" name="Rift Warrior"/>
+		<list gender="1" lookType="2727" name="Rift Warrior"/>
+	</outfit>
+
+	<outfit id="51" premium="0" quest="5454">
+		<list gender="0" lookType="2728" name="Winter Warden"/>
+		<list gender="1" lookType="2729" name="Winter Warden"/>
+	</outfit>
+
+	<outfit id="52" premium="0" quest="5454">
+		<list gender="0" lookType="2731" name="Arena Champion"/>
+		<list gender="1" lookType="2730" name="Arena Champion"/>
+	</outfit>
+
+	<outfit id="53" premium="0" quest="5454">
+		<list gender="0" lookType="2732" name="Lupine Warden"/>
+		<list gender="1" lookType="2733" name="Lupine Warden"/>
+	</outfit>
+
+	<outfit id="54" premium="0" quest="5454">
+		<list gender="0" lookType="2735" name="Grove Keeper"/>
+		<list gender="1" lookType="2734" name="Grove Keeper"/>
+	</outfit>
+
+	<outfit id="55" premium="0" quest="5454">
+		<list gender="0" lookType="2736" name="Festive"/>
+		<list gender="1" lookType="2737" name="Festive"/>
+	</outfit>
+
+	<outfit id="56" premium="0" quest="5454">
+		<list gender="0" lookType="2739" name="Pharaoh"/>
+		<list gender="1" lookType="2738" name="Pharaoh"/>
+	</outfit>
+
+	<outfit id="57" premium="0" quest="5454">
+		<list gender="0" lookType="2741" name="Trophy Hunter"/>
+		<list gender="1" lookType="2740" name="Trophy Hunter"/>
+	</outfit>
+
+	<outfit id="58" premium="0" quest="5454">
+		<list gender="0" lookType="2742" name="Herbalist"/>
+		<list gender="1" lookType="2743" name="Herbalist"/>
+	</outfit>
+
+	<outfit id="59" premium="0" quest="5454">
+		<list gender="0" lookType="2745" name="Sun Priestess"/>
+		<list gender="1" lookType="2744" name="Sun Priest"/>
+	</outfit>
+
+	<outfit id="60" premium="0" quest="5454">
+		<list gender="0" lookType="2747" name="Makeshift"/>
+		<list gender="1" lookType="2746" name="Makeshift"/>
+	</outfit>
+
+	<outfit id="61" premium="0" quest="5454">
+		<list gender="0" lookType="2749" name="Siege Master"/>
+		<list gender="1" lookType="2748" name="Siege Master"/>
+	</outfit>
+
+	<outfit id="62" premium="0" quest="5454">
+		<list gender="0" lookType="2752" name="Discoverer"/>
+		<list gender="1" lookType="2751" name="Discoverer"/>
+	</outfit>
+
+	<outfit id="63" premium="0" quest="5454">
+		<list gender="0" lookType="2754" name="Sinister Archer"/>
+		<list gender="1" lookType="2753" name="Sinister Archer"/>
+	</outfit>
+
+	<outfit id="64" premium="0" access="4">
+		<list gender="0" lookType="2756" name="Pumpkin Mummy"/>
+		<list gender="1" lookType="2755" name="Pumpkin Mummy"/>
+	</outfit>
+
+	<outfit id="65" premium="0" quest="5454">
+		<list gender="0" lookType="2758" name="Dream Warrior"/>
+		<list gender="1" lookType="2757" name="Dream Warrior"/>
+	</outfit>
+
+	<outfit id="66" premium="0" quest="5454">
+		<list gender="0" lookType="2760" name="Percht Raider"/>
+		<list gender="1" lookType="2759" name="Percht Raider"/>
+	</outfit>
+
+	<outfit id="67" premium="0" access="4">
+		<list gender="0" lookType="2762" name="Owl Keeper"/>
+		<list gender="1" lookType="2761" name="Owl Keeper"/>
+	</outfit>
+
+	<outfit id="68" premium="0" quest="5454">
+		<list gender="0" lookType="2764" name="Guidon Bearer"/>
+		<list gender="1" lookType="2763" name="Guidon Bearer"/>
+	</outfit>
+
+	<outfit id="69" premium="0" access="4">
+		<list gender="0" lookType="2766" name="Inquisition"/>
+		<list gender="1" lookType="2765" name="Inquisition"/>
+	</outfit>
+
+	<outfit id="70" premium="0" quest="5454">
+		<list gender="0" lookType="2768" name="Breezy Garb"/>
+		<list gender="1" lookType="2767" name="Breezy Garb"/>
+	</outfit>
+
+	<outfit id="71" premium="0" quest="5454">
+		<list gender="0" lookType="2770" name="Orcsoberfest"/>
+		<list gender="1" lookType="2769" name="Orcsoberfest"/>
+	</outfit>
+
+	<outfit id="72" premium="0" quest="5454">
+		<list gender="0" lookType="2772" name="Poltergeist"/>
+		<list gender="1" lookType="2771" name="Poltergeist"/>
+	</outfit>
+
+	<outfit id="73" premium="0" quest="5454">
+		<list gender="0" lookType="2774" name="Herder"/>
+		<list gender="1" lookType="2773" name="Herder"/>
+	</outfit>
+
+	<outfit id="74" premium="0" access="4">
+		<list gender="0" lookType="2776" name="Falconer"/>
+		<list gender="1" lookType="2775" name="Falconer"/>
+	</outfit>
+
+	<outfit id="75" premium="0" quest="5454">
+		<list gender="0" lookType="2778" name="Jouster"/>
+		<list gender="1" lookType="2777" name="Jouster"/>
+	</outfit>
+
+	<outfit id="76" premium="0" quest="5454">
+		<list gender="0" lookType="2780" name="Moth Cape"/>
+		<list gender="1" lookType="2779" name="Moth Cape"/>
+	</outfit>
+
+	<outfit id="77" premium="0" access="4">
+		<list gender="0" lookType="2782" name="Rascoohan"/>
+		<list gender="1" lookType="2781" name="Rascoohan"/>
+	</outfit>
+
+	<outfit id="78" premium="0" quest="5454">
+		<list gender="0" lookType="2784" name="Merry Garb"/>
+		<list gender="1" lookType="2783" name="Merry Garb"/>
+	</outfit>
+
+	<outfit id="79" premium="0" access="4">
+		<list gender="0" lookType="2786" name="Issavi Citizen"/>
+		<list gender="1" lookType="2785" name="Issavi Citizen"/>
+	</outfit>
+
+	<outfit id="80" premium="0" quest="5454">
+		<list gender="0" lookType="2787" name="Forest Warden"/>
+		<list gender="1" lookType="2788" name="Forest Warden"/>
+	</outfit>
+
+	<outfit id="81" premium="0" quest="5454">
+		<list gender="0" lookType="2790" name="Royal Bounacean"/>
+		<list gender="1" lookType="2789" name="Royal Bounacean"/>
+	</outfit>
+
+	<outfit id="82" premium="0" quest="5454">
+		<list gender="0" lookType="2792" name="Dragon Knight"/>
+		<list gender="1" lookType="2791" name="Dragon Knight"/>
+	</outfit>
+
+	<outfit id="83" premium="0" access="4">
+		<list gender="0" lookType="2793" name="Chaos Acolyte"/>
+		<list gender="1" lookType="2794" name="Chaos Acolyte"/>
+	</outfit>
+
+	<outfit id="84" premium="0" quest="5454">
+		<list gender="0" lookType="2795" name="Evoker"/>
+		<list gender="1" lookType="2796" name="Evoker"/>
+	</outfit>
+
+	<outfit id="85" premium="0" quest="5454">
+		<list gender="0" lookType="2797" name="Battle Mage"/>
+		<list gender="1" lookType="2798" name="Battle Mage"/>
+	</outfit>
+
+	<outfit id="86" premium="0" access="4">
+		<list gender="0" lookType="2800" name="Void Master"/>
+		<list gender="1" lookType="2799" name="Void Master"/>
+	</outfit>
+
+	<outfit id="87" premium="0" access="4">
+		<list gender="0" lookType="2802" name="Veteran Paladin"/>
+		<list gender="1" lookType="2801" name="Veteran Paladin"/>
+	</outfit>
+
+	<outfit id="88" premium="0" quest="5454">
+		<list gender="0" lookType="2804" name="Lion Of War"/>
+		<list gender="1" lookType="2803" name="Lion Of War"/>
+	</outfit>
+
+	<outfit id="89" premium="0" quest="5454">
+		<list gender="0" lookType="2806" name="Revenant"/>
+		<list gender="1" lookType="2805" name="Revenant"/>
+	</outfit>
+
+	<outfit id="90" premium="0" quest="5454">
+		<list gender="0" lookType="2808" name="Trailblazer"/>
+		<list gender="1" lookType="2807" name="Trailblazer"/>
+	</outfit>
+
+	<outfit id="91" premium="0" access="4">
+		<list gender="0" lookType="2810" name="Rune Master"/>
+		<list gender="1" lookType="2809" name="Rune Master"/>
+	</outfit>
+
+	<outfit id="92" premium="0" quest="5454">
+		<list gender="0" lookType="2811" name="Mercenary"/>
+		<list gender="1" lookType="2750" name="Mercenary"/>
+	</outfit>
+    
+
+    <outfit id="93" premium="1" quest="5454">
+		<list gender="0" lookType="925" name="Retro Warrior"/>
+		<list gender="1" lookType="924" name="Retro Warrior"/>
+	</outfit>
+
+	<outfit id="94" premium="1" quest="5454">
+		<list gender="0" lookType="927" name="Retro Summoner"/>
+		<list gender="1" lookType="926" name="Retro Summoner"/>
+	</outfit>
+
+	<outfit id="95" premium="1" quest="5454">
+		<list gender="0" lookType="929" name="Retro Nobleman"/>
+		<list gender="1" lookType="928" name="Retro Nobleman"/>
+	</outfit>
+
+	<outfit id="96" premium="1" quest="5454">
+		<list gender="0" lookType="931" name="Retro Mage"/>
+		<list gender="1" lookType="930" name="Retro Mage"/>
+	</outfit>
+
+	<outfit id="97" premium="1" quest="5454">
+		<list gender="0" lookType="933" name="Retro Knight"/>
+		<list gender="1" lookType="932" name="Retro Knight"/>
+	</outfit>
+
+	<outfit id="98" premium="1" quest="5454">
+		<list gender="0" lookType="935" name="Retro Hunter"/>
+		<list gender="1" lookType="934" name="Retro Hunter"/>
+	</outfit>
+
+	<outfit id="99" premium="1" quest="5454">
+		<list gender="0" lookType="936" name="Retro Citizen"/>
+		<list gender="1" lookType="937" name="Retro Citizen"/>
+	</outfit>
+
+	<outfit id="100" premium="0" access="5">
+		<list gender="0-3" lookType="302" name="GOD Outfit"/>
+	</outfit>
+	
+	<outfit id="101" premium="0" access="5">
+		<list gender="0-3" lookType="399" name="ADM Outfit"/>
+	</outfit>
+
+	<outfit id="102" premium="0" access="4">
+		<list gender="0-3" lookType="266" name="CM Outfit"/>
+	</outfit>
+	
+	<outfit id="103" premium="0" access="4">
+		<list gender="0-3" lookType="75" name="GM Outfit"/>
+	</outfit>
+
+
+</outfits>

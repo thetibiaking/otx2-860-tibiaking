@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cristal" nameDescription="a cristal" race="fire" experience="0" speed="0" manacost="0">
+  <health now="75000" max="75000"/>
+	<look typeex="8635"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+	<script>
+		<event name="pre_empes"/>
+		<event name="empe_dmg"/>
+	</script>
+ <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="0"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="10"/>
+  </flags>
+  <attacks>
+  </attacks>
+  <defenses armor="50" defense="50"/>
+  <elements>
+	<element icePercent="10"/>
+	<element firePercent="10"/>
+	<element holyPercent="10"/>
+	<element deathPercent="10"/>
+	<element physicalPercent="10"/>
+  </elements>
+  <immunities>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+</monster>

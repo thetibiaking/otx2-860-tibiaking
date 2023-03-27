@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Executioner" nameDescription="dark executioner" race="blood" experience="5400" speed="205" manacost="0">
+	<health now="5800" max="5800"/>
+	<look type="255" head="78" body="114" legs="114" feet="114" corpse="6080"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag targetdistance="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1700" skill="110" attack="68"/>
+		<attack name="physical" interval="2000" chance="30" min="-220" max="-430">
+			<attribute key="shootEffect" value="whirlwindaxe"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="31">
+		<defense name="healing" interval="6000" chance="65" min="200" max="500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="33"/>
+		<element firePercent="-22"/>
+	</elements>
+	<immunities>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="FIGHT LIKE A BARBARIAN!" yell="1"/>
+		<voice sentence="VICTORY IS MINE!" yell="1"/>
+		<voice sentence="I AM your father!"/>
+		<voice sentence="To be the man you have to beat the man!"/>
+	</voices>
+</monster>

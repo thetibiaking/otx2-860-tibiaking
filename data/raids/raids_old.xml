@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+<raid name="Cormaya" file="Morgaroth.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Thais" file="Ghazbaran.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Carlin" file="Ushuriel.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Desert" file="Madareth.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Big-War" file="Hellgorak.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Kazordoon" file="Zugurosh.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Edron" file="Golgordan.xml" interval2="60000" chance="0" margin="0"/>
+<raid name="Venore" file="Latrivan.xml" interval2="60000" chance="0" margin="0"/>
+</raids>
